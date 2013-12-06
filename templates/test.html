@@ -1,0 +1,38 @@
+{% extends "/layout.html" %}
+
+
+{% block body %}
+
+<div id="dynamicContent"></div>
+
+ 
+<p id="mrButton">Click me</p>
+ 
+<script>
+ 
+	jQuery('#mrButton').click(function(e){
+ 
+		jQuery.ajax({
+			url : '/',
+			type: 'GET',
+			
+			success : function(data) {
+				// console.log("SUCCESS!");
+				console.log(data);
+				
+				jQuery("#dynamicContent").html(data);
+			},
+ 
+			error: function(err) {
+				console.warn("something went wrong");
+				console.warn(err);
+			}
+		}); // end of AJAX
+ 
+	}); //end of click event
+	
+ 
+</script>
+
+{% endblock %}
+

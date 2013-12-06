@@ -1,0 +1,76 @@
+{% extends "/layout.html" %}
+
+{% block body %}
+<body>
+
+
+
+
+<!-- 
+<script>
+ 
+$( document ).ready(function() {
+
+	jQuery('#SketchTwo').click(function(e){
+    	
+     	
+		jQuery.ajax({
+			url : '/sketch2',
+			type: 'GET',
+			
+			success : function(data) {
+				console.log("SUCCESS!");
+				console.log(data);
+				jQuery("#dynamicContent").html(data);
+			},
+ 
+			error: function(err) {
+				console.warn("something went wrong");
+				console.warn(err);
+			}
+		}); // end of AJAX
+
+		$('body').css("background","white");
+		$('.title').css("color","black");
+		$('.tabs').css("color","black");
+		$('.footer').css("color","black");
+
+
+ 
+	}); 
+  
+});
+	
+	
+ 
+</script>
+ -->
+
+
+<div class="title">
+<p class="logo">BALANCE</p>
+<p id="logo_subtitle"> by <a href="http://yangwangphilo.com">Yang Wang</a> AND <a href="http://zhenzhenqi.info/">Zhenzhen Qi</a> </p>
+</div>
+
+<audio autoplay="true"><source src="static/music/bg.mp3" type="audio/mpeg" /></audio>
+
+
+<div id="dynamicContent">
+ <canvas data-processing-sources="/static/processing/Sphere_of_Particles/Sphere_of_Particles.pde"></canvas>
+
+</div>
+
+
+
+
+<div class="tabs">
+<a id="Path" class="tab" href="/">Path</p> | 
+<a id="Form" class="tab" href="/Form">Form</p> 
+</div>
+
+
+
+
+</body>
+{% endblock %}
+
