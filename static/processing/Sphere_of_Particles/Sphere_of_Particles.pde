@@ -38,7 +38,7 @@ void setup() {
 
 
   connection_weight = 0.7;
-  sphere_volume = particle_amount/-10;
+  sphere_volume = 0.5;
   sphere_radius= 220;
   size(page_width, page_height, P3D);
   particle_amount = 90;
@@ -59,13 +59,10 @@ void setup() {
 
 
 void draw() {
-
-
-
-  background(0);
+  background(15);
   slider.display();
 
-  translate(0, 0, -1000);
+  translate(0, 0, -1300);
 
   for (Particle this_particle:particles) {
 
@@ -104,7 +101,7 @@ void draw() {
         if (PVector.dist(particles.get(p).location, this_particle.location)< 430) 
         {
           strokeWeight(connection_weight);
-          stroke(255,180);
+          stroke(255,230);
           line(particles.get(p).location.x, particles.get(p).location.y, particles.get(p).location.z, 
           this_particle.location.x, this_particle.location.y, this_particle.location.z);
         }
@@ -297,7 +294,7 @@ class Particle {
     v = random(0, 40);
     temp_target = new PVector(0, 0, 0);
     tail = new ArrayList<PVector>();
-    speed  = 8;
+    speed  = 20;
     angle=0;
     floating=8;
     maxforce=0.5;
@@ -409,7 +406,7 @@ class Particle {
   }
 
   void move_towards_target() {
-    minSpeed = 1 * ( 1-sphere_volume );
+    minSpeed =  (1 - sphere_volume) ;
     PVector desired = PVector.sub(target, location);//get "should" direction
     desired.normalize();//get the dir. with a unit length
     desired.mult(speed*sphere_volume+minSpeed);
@@ -431,23 +428,6 @@ class Particle {
     popMatrix();
   }
 
-
-
-
-  // void update_tail() {
-  //   tail.add(new PVector(location.x, location.y, location.z));
-  //   if (tail.size()>80)tail.remove(0);
-  // }
-
-
-  // void display_tail() {
-  //   for (int i=0;i<tail.size();i++) {
-
-  //     stroke(255);
-  //     strokeWeight(0.5);
-  //     point(tail.get(i).x, tail.get(i).y, tail.get(i).z);
-  //   }
-  // }
 }
 
 
@@ -464,7 +444,7 @@ class Slider {
     myS = 20;
     xword = xhead-70;
     yword = yhead;
-    xscale = xhead+myW-myS;
+    xscale = xhead+(myW/2)-myS;
     yscale = yhead;
     
   }

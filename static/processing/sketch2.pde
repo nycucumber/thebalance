@@ -1,3 +1,16 @@
+/* 
+
+
+This sketch is created by zhenzhen qi @ 2013-11 
+belongs to project Balance, collabrated with Yang Wang
+http://zhenzhenqi.info/
+http://yangwangphilo.com/
+
+
+*/
+
+
+
 
 var page_width = $( document ).width();
 var page_height = $( document ).height();
@@ -37,7 +50,7 @@ void draw() {
   // text(frameRate, 10, 20);
   slider.display();
 
-  translate(width/2, height/2, 0);
+  translate(width/2, height/2, 130);
   scale(100);
 
   rotateX(radians(frameCount*0.18));
@@ -82,28 +95,6 @@ void draw() {
       ball.stay();
     }
   }
-}
-
-
-void keyPressed() {
-  //  if (key == 'r' & record == false) record = true; 
-  //  beginRaw(PDF, "output1.pdf");
-  //  if (key == 'r' & record == true) record = false; 
-  //  endRaw();
-
-
-  //  if (key=='p') {
-  //    if (ball.pause==false && ball.move==true) { 
-  //      ball.pause=true;  
-  //      ball.move=false;
-  //    }
-  //  }
-  //  if (key=='q') { 
-  //    if (ball.pause==true && ball.move==false) { 
-  //      ball.pause=false;  
-  //      ball.move=true;
-  //    }
-  //  }
 }
 
 void mouseDragged() {
