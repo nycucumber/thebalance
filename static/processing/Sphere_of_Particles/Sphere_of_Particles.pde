@@ -62,7 +62,7 @@ void draw() {
   background(15);
   slider.display();
 
-  translate(0, 0, -1300);
+  translate(0, 0, -1340);
 
   for (Particle this_particle:particles) {
 
@@ -503,8 +503,8 @@ class Sphere {
 
 
   void move() {
-    u = u + (0.001 + moving_speed );  
-    v = v + (0.001 + moving_speed ); 
+    u = u + (0.001 + moving_speed ) + sphere_volume*0.004;  
+    v = v + (0.001 + moving_speed ) + sphere_volume*0.004; 
     location.x = The_radius*1.3 * sin(u) * cos(v)+ center.x;
     location.y = The_radius*0.8 * cos(u) * cos(v)+center.y;
     location.z = The_radius*1.5 * sin(v) + center.z;
