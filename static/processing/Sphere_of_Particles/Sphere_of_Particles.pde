@@ -89,7 +89,7 @@ void draw() {
         )
         ) {
         strokeWeight(connection_weight);
-        stroke(255,80);
+        stroke(255,110);
         line(particles.get(p).location.x, particles.get(p).location.y, particles.get(p).location.z, 
         this_particle.location.x, this_particle.location.y, this_particle.location.z);
       
@@ -104,7 +104,7 @@ void draw() {
         if (PVector.dist(particles.get(p).location, this_particle.location)< 430) 
         {
           strokeWeight(connection_weight);
-          stroke(255,150);
+          stroke(255,180);
           line(particles.get(p).location.x, particles.get(p).location.y, particles.get(p).location.z, 
           this_particle.location.x, this_particle.location.y, this_particle.location.z);
         }

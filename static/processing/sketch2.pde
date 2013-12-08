@@ -2,68 +2,112 @@
 var page_width = $( document ).width();
 var page_height = $( document ).height();
 
-console.log(page_width);
-console.log(page_height);
 
 ArrayList<Curve> curves;
 Slider slider;
 Curve finalC;
 Ball ball;
 boolean record;
+boolean sliderMoved;
 
 float a;
 float rx, ry, rz;
 
 int seg;
 void setup() {
-  frameRate(60);
-  size(page_width, page_height, P3D);
+
+  size(page_width, page_height, P3D); 
   rx=ry=rz=0;
   seg=0;
   record = false;
+  sliderMoved = false;
   a=0;
 
   curves = new ArrayList<Curve>(); 
   slider = new Slider();
   finalC = new Curve(0);
   ball = new Ball();
+
 }
 
 void draw() {
+
   smooth();
-
-
   background(255);
-  
+  // text(frameRate, 10, 20);
   slider.display();
 
   translate(width/2, height/2, 0);
   scale(100);
+
   rotateX(radians(frameCount*0.18));
   rotateY(radians(frameCount*0.2));
 
 
-  for (int i=0; i<curves.size(); i++) {
-      curves.get(i).displayLineFade(i);
-//    curves.get(i).displayDot(i);
-    if (curves.size() > 30){
-      curves.remove(0);
-    }
-  }
+  fill(0);
+  noStroke();
+  pushMatrix();
+  translate(0, 0, -3);
+  sphere(0.04);
+ 
+  popMatrix();
 
-  if (ball.move) {
+  pushMatrix();
+  translate(0, 0, 3);
+  sphere(0.04);
+  //  point(0, 0, -3);
+  //  point(0, 0, 3);
+  popMatrix();
+
+
+
+  if (sliderMoved==false) {
+    curves.add(new Curve(a));
+    curves.get(0).displayLine();
+    ball.move=true;
     ball.display(curves.get(curves.size()-1));
   }
-  if (ball.pause) {
-    ball.stay();
+  if (sliderMoved==true) {
+    for (int i=0; i<curves.size(); i++) {
+      curves.get(i).displayLineFade(i);
+      if (curves.size()>24) {
+        curves.remove(0);
+      }
+    }
+
+    if (ball.move) {
+      ball.display(curves.get(curves.size()-1));
+    }
+    if (ball.pause) {
+      ball.stay();
+    }
   }
-  //  println("------");
-  //  println(ball.move+"   "+ball.pause);
 }
 
 
+void keyPressed() {
+  //  if (key == 'r' & record == false) record = true; 
+  //  beginRaw(PDF, "output1.pdf");
+  //  if (key == 'r' & record == true) record = false; 
+  //  endRaw();
+
+
+  //  if (key=='p') {
+  //    if (ball.pause==false && ball.move==true) { 
+  //      ball.pause=true;  
+  //      ball.move=false;
+  //    }
+  //  }
+  //  if (key=='q') { 
+  //    if (ball.pause==true && ball.move==false) { 
+  //      ball.pause=false;  
+  //      ball.move=true;
+  //    }
+  //  }
+}
 
 void mouseDragged() {
+  sliderMoved=true;
   if (mouseX>slider.xhead+25 & mouseX<slider.xhead+slider.myW-25 & mouseY>slider.yhead - 100 & mouseY< slider.yhead+slider.myH+100) 
   {
     slider.moveScale();
@@ -89,13 +133,12 @@ class Ball {
   void display(Curve tmp) {
     finalC=tmp;
     pushMatrix();
-//    stroke(0);
-//    strokeWeight(10);
-    
+    fill(0);
+
     translate(finalC.x[i], finalC.y[i], finalC.z[i]);
     noStroke();
-    fill(70);
-    sphere(0.07);
+
+    sphere(0.05);
     popMatrix();
     i++;
     if (i==finalC.x.length-1) {
@@ -124,7 +167,7 @@ class Curve {
 
     start=-3;
     end=3;
-    step = 0.06; 
+    step = 0.1; 
 
     myTrans=250;
 
@@ -155,8 +198,8 @@ class Curve {
   }
 
   void displayLine() {
-    strokeWeight(1);
-    stroke(230, 255);
+    strokeWeight(0.01);
+    stroke(0);
     for ( int i=0;i<t.length-1;i++) {
       line(x[i], y[i], z[i], x[i+1], y[i+1], z[i+1]);
     }
@@ -164,9 +207,9 @@ class Curve {
 
   void displayLineFade(int tmp_i) {
     myTrans = tmp_i*8;
-    float myWeight = 1;
+    float myWeight = 0.01;
     strokeWeight(myWeight);
-    stroke(0, myTrans);
+    stroke(0, myTrans); 
 
     for (int j=0; j<t.length-1; j++) {
       line(x[j], y[j], z[j], x[j+1], y[j+1], z[j+1]);
