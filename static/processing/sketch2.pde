@@ -30,6 +30,7 @@ void setup() {
 }
 
 void draw() {
+  smooth();
 
 
   background(255);
@@ -45,7 +46,7 @@ void draw() {
   for (int i=0; i<curves.size(); i++) {
       curves.get(i).displayLineFade(i);
 //    curves.get(i).displayDot(i);
-    if (curves.get(i).myTrans>100) {
+    if (curves.size() > 30){
       curves.remove(0);
     }
   }
@@ -93,8 +94,8 @@ class Ball {
     
     translate(finalC.x[i], finalC.y[i], finalC.z[i]);
     noStroke();
-   
-    sphere(0.04);
+    fill(70);
+    sphere(0.07);
     popMatrix();
     i++;
     if (i==finalC.x.length-1) {
@@ -163,7 +164,7 @@ class Curve {
 
   void displayLineFade(int tmp_i) {
     myTrans = tmp_i*8;
-    float myWeight = 0.01;
+    float myWeight = 1;
     strokeWeight(myWeight);
     stroke(0, myTrans);
 

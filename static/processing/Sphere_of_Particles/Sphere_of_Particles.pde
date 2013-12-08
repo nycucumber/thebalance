@@ -72,7 +72,6 @@ void draw() {
 
     //draw mesh
 
-
     for ( int p=0 ; p < particles.size(); p++) {  
 
       if (this_particle.travelling == true && particles.get(p).travelling == true
@@ -90,10 +89,10 @@ void draw() {
         )
         ) {
         strokeWeight(connection_weight);
-        stroke(255, 150);
+        stroke(255,80);
         line(particles.get(p).location.x, particles.get(p).location.y, particles.get(p).location.z, 
         this_particle.location.x, this_particle.location.y, this_particle.location.z);
-        stroke(255, 150);
+      
         line(this_particle.location.x, this_particle.location.y, this_particle.location.z, this_particle.target.x, this_particle.target.y, this_particle.target.z);
         line(this_particle.location.x, this_particle.location.y, this_particle.location.z, 
         spheres.get(parseInt(this_particle.origin)).location.x, 
@@ -102,11 +101,10 @@ void draw() {
       }
 
       if (this_particle.travelling == false && particles.get(p).travelling == false) {
-
         if (PVector.dist(particles.get(p).location, this_particle.location)< 430) 
         {
           strokeWeight(connection_weight);
-          stroke(255);
+          stroke(255,150);
           line(particles.get(p).location.x, particles.get(p).location.y, particles.get(p).location.z, 
           this_particle.location.x, this_particle.location.y, this_particle.location.z);
         }
@@ -149,6 +147,8 @@ void draw() {
           }
         }
       }
+
+
       if (this_particle.id == "1") {
         this_particle.haunt(spheres.get(1).location);
         this_particle.origin = "1";
@@ -159,6 +159,8 @@ void draw() {
           }
         }
       }
+
+
       if (this_particle.id == "2") {
         this_particle.haunt(spheres.get(2).location);
         this_particle.origin = "2";
@@ -212,6 +214,8 @@ void draw() {
 
 
 
+
+
     this_particle.display();
   }
 
@@ -224,7 +228,14 @@ void draw() {
     }
     spheres.get(i).move();
     spheres.get(i).decide();
+
+    pushMatrix();
+    translate(spheres.get(i).location.x, spheres.get(i).location.y, spheres.get(i).location.z);
+    sphereDetail(3, 3);
+    sphere(10);
+    popMatrix();
   }
+
 
   spheres.get(0).particle_count = 0;
   spheres.get(1).particle_count = 0;
@@ -234,9 +245,8 @@ void draw() {
   false_amount_0=0;
   false_amount_1=0;
   false_amount_2=0;
-  false_amount_3=0;
+  false_amount_3=0;   
   false_amount_4=0; 
-
 
   for (Particle this_particle:particles) {
     this_particle.connected = false;
@@ -328,7 +338,6 @@ class Particle {
 
     origin = id;
 
-
     velocity = new PVector(random(-0.5, 0.5), random(-0.5, 0.5), random(-0.5, 0.5));
     target = new PVector(0, 0, 0);
   }
@@ -408,7 +417,6 @@ class Particle {
     steer.limit(maxforce);//limit the force to make a better animation...
     acceleration.add(steer);
     velocity.add(acceleration);//acce. it
-    //  velocity.limit(speed*sphere_volume+minSpeed);
     location.add(velocity);//literally MOVE
     acceleration.mult(0);
   }
@@ -426,20 +434,20 @@ class Particle {
 
 
 
-  void update_tail() {
-    tail.add(new PVector(location.x, location.y, location.z));
-    if (tail.size()>80)tail.remove(0);
-  }
+  // void update_tail() {
+  //   tail.add(new PVector(location.x, location.y, location.z));
+  //   if (tail.size()>80)tail.remove(0);
+  // }
 
 
-  void display_tail() {
-    for (int i=0;i<tail.size();i++) {
+  // void display_tail() {
+  //   for (int i=0;i<tail.size();i++) {
 
-      stroke(255);
-      strokeWeight(0.5);
-      point(tail.get(i).x, tail.get(i).y, tail.get(i).z);
-    }
-  }
+  //     stroke(255);
+  //     strokeWeight(0.5);
+  //     point(tail.get(i).x, tail.get(i).y, tail.get(i).z);
+  //   }
+  // }
 }
 
 
@@ -486,6 +494,7 @@ class Slider {
   }
 }
 
+
 class Sphere {
 
   PVector location;
@@ -499,8 +508,8 @@ class Sphere {
   float  u, v, moving_speed;
   float The_radius;
 
-  Sphere () {
 
+  Sphere () {
     The_radius = 800;
     moving_speed = random(0.001, 0.007) * 0.1;
     u = random(0, 40);
