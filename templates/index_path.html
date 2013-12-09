@@ -33,17 +33,44 @@
 			text-decoration: none;
 		}
 
+
+		#submit {
+			color: white;
+			background-color: black;
+		}
+
+
+
 	</style>
 
-	
+
 	<script>
+
 		$(document).ready(function(){
-		$('#toReport').mouseover(function(){
-		$(this).addClass('dropdown');
-		})
-		$('#toReport').mouseleave(function(){
-		$(this).removeClass('dropdown');
-		})
+
+			$('#toReport').mouseover(function(){
+			$(this).addClass('dropdown');
+			})
+
+			$('#toReport').mouseleave(function(){
+			$(this).removeClass('dropdown');
+			})
+
+			$("#submit").click(function(){
+
+				var pjs = Processing.getInstanceById('mySketch');
+				var submission_data  = pjs.get_a();
+				
+			
+
+				$.post("/", 
+					{value: submission_data,},
+				console.log(submission_data)
+				);
+
+
+			});
+
 
 		})
 	</script>
@@ -72,19 +99,19 @@
 	</div>
 
 
+		{% block toreport %}
 	
-		<a id="toReport" href="/userdata">BALANCE REPORT</a>
-	
+		<a id="toReport" href="/pathuserdata">BALANCE REPORT</a>
 
+		{% endblock %}
 </div>
 
 	{% block sketchURL %}
 	<div>
-	 <canvas class="myCanvas" data-processing-sources="/static/processing/sketch2.pde"></canvas>
+	 <canvas id="mySketch" class="myCanvas" data-processing-sources="/static/processing/sketch2.pde"></canvas>
 	</div> 
+	<p id="submit">I CONSIDER THIS IS BALANCED</p>
 	{% endblock %}
-
-
 
 </body>
 {% endblock %}

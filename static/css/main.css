@@ -23,6 +23,8 @@ a:hover {
 	color: white;
 	text-decoration: none;
 }
+
+
 /*MENU*/
 
 
@@ -33,10 +35,12 @@ a:hover {
 	color: white;
 	text-align: right;
 }
+
+
 .tabs {
-	top:-25px;
+	top:-20px;
 	position: relative;
-	font-size: 25px;
+	font-size: 18px;
 	color: white;
 	display: inline;
 	text-align: right;
@@ -62,13 +66,35 @@ a:hover {
 .dropdown {
 	padding-top: 15px;
 }
+
+
+#submit {
+	opacity: 0.3;
+	padding-left: 10px;
+	padding-right: 10px;
+	position: fixed;
+	font-size: 9px;
+	bottom: 2.8%;
+	left: 30%;
+}
+
+
+#submit:hover{
+	opacity: 1.0;
+}
+
+#carousel-example-generic {
+	position: fixed;
+}
+
 /*FOOTER*/
 
 .footer {
-	opacity: 0.5;
+
+	opacity: 0.4;
 	font-family: 'Montserrat';
  	position: fixed;
- 	bottom: 0.5%;
+ 	bottom: 0%;
 	right: 2.5%;
 	color: white;
     font-size: 10px;

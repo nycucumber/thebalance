@@ -95,12 +95,17 @@ void draw() {
   }
 }
 
+float get_a(){
+  return a;
+}
+
 void mouseDragged() {
   sliderMoved=true;
   if (mouseX>slider.xhead+25 & mouseX<slider.xhead+slider.myW-25 & mouseY>slider.yhead - 100 & mouseY< slider.yhead+slider.myH+100) 
   {
     slider.moveScale();
     a=map(mouseX, slider.xhead+25, slider.xhead+slider.myW-25, -3, 3);
+    
     curves.add(new Curve(a));
   }
 }

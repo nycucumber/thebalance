@@ -32,6 +32,11 @@ body{
 	background-color: white;
 }
 
+#submit {
+	color: black;
+	background-color: white;
+}
+
 
 </style>
 
@@ -44,6 +49,7 @@ body{
 		$('#toReport').mouseover(function(){
 		$(this).addClass('dropdown');
 		})
+
 		$('#toReport').mouseleave(function(){
 		$(this).removeClass('dropdown');
 		})
@@ -53,7 +59,7 @@ body{
 
 
 
-	
+
 {% endblock %}
 
 
@@ -61,10 +67,22 @@ body{
 	<!-- <audio autoplay="true" loop><source src="static/music/03a.mp3" type="audio/mpeg"/></audio> -->
 {% endblock %}
 
+
+
+
+		{% block toreport %}
+	
+		<a id="toReport" href="/formuserdata">BALANCE REPORT</a>
+
+		{% endblock %}
+
+
+
 {% block sketchURL %}
 <div>
  <canvas class="myCanvas"  data-processing-sources="/static/processing/Sphere_of_Particles/Sphere_of_Particles.pde"></canvas>
 </div>
+<p id="submit">I CONSIDER THIS IS BALANCED</p>
 {% endblock %}
 
 

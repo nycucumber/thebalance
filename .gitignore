@@ -1,5 +1,6 @@
 .DS_Store
 venv
 .pyc
+.env
 Processing_Sketches
 Posters

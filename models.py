@@ -4,5 +4,7 @@ from datetime import datetime
 import logging
 
 
-# class Emoticons(Document):
-# 	this_emoticon = StringField(max_length=80, required=True)
+class PathBalanceReport(Document):
+	PbalancedPoint = StringField(max_length=80, required=True)
+class FormBalanceReport(Document):
+	FbalancedPoint = StringField(max_length=80, required=True)
