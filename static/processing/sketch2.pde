@@ -10,8 +10,6 @@ http://yangwangphilo.com/
 */
 
 
-
-
 var page_width = $( document ).width();
 var page_height = $( document ).height();
 
@@ -29,7 +27,7 @@ float rx, ry, rz;
 int seg;
 void setup() {
 
-  size(page_width, page_height, P3D); 
+  size(page_width*0.99, page_height*0.99, P3D); 
   rx=ry=rz=0;
   seg=0;
   record = false;
@@ -213,14 +211,25 @@ class Slider {
   int xword, yword, xhead, yhead, xscale, yscale, myW, myH, myS;
 
   Slider() {
-    xhead = 130;
-    yhead = height - 40;
-    myW = 300;
+    // xhead = 130;
+    // yhead = height - 40;
+    // myW = 300;
+    // myH = 10;
+    // myS = 50;
+    // xword = xhead-myS;
+    // yword = yhead+9;
+    // xscale = xhead+myW/2-25;
+    // yscale = yhead;
+
+
+    xhead = 90;
+    yhead = height - 35;
+    myW = 240;
     myH = 10;
-    myS = 50;
-    xword = xhead-myS;
-    yword = yhead+9;
-    xscale = xhead+myW/2-25;
+    myS = 20;
+    xword = xhead-70;
+    yword = yhead;
+    xscale = xhead+(myW/2)-myS;
     yscale = yhead;
   }
 
@@ -228,20 +237,19 @@ class Slider {
     //legend
     strokeWeight(0.5);
     fill(150);
-    text("Detour", xword, yword);
+    text("Detour", xword+25, yword+6.5);
 
 
- //slider
+    //slider
     noStroke();
-    fill(150);
-//    rect(xscale, yscale, 50, myH, 2);
-    rect(xscale, yscale, 50, myH);
+    fill(50,200);
+    rect(xscale, yscale, myS, myH);
     
     
     //frame
     noStroke();
-    fill(200);
-//    rect(xhead, yhead, myW, myH, 2);
+    fill(150,200);
+
     rect(xhead, yhead, myW, myH);
 
    

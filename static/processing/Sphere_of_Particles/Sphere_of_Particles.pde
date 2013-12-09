@@ -9,8 +9,8 @@ http://zhenzhenqi.info/
 */
 
 
-var page_width = $( document ).width();
-var page_height = $( document ).height();
+var webpage_width = $( document ).width();
+var webpage_height = $( document ).height();
 
 
 
@@ -35,12 +35,10 @@ Slider slider;
 
 
 void setup() {
-
-
+  size(window.innerWidth*0.99, window.innerHeight*0.99, P3D);
   connection_weight = 0.7;
   sphere_volume = 0.5;
   sphere_radius= 220;
-  size(page_width, page_height, P3D);
   particle_amount = 90;
   sphere_amount = 5;
   particles = new ArrayList<Particle>();
@@ -59,7 +57,8 @@ void setup() {
 
 
 void draw() {
-  background(15);
+
+  background(0);
   slider.display();
 
   translate(0, 0, -1340);
@@ -452,8 +451,8 @@ class Slider {
   void display() {
 
     strokeWeight(0.5);
-    fill(200);
-    text("STILL", xword, yword);
+    fill(255);
+    text("Still", xword+40, yword+6.5);
 
 
     noStroke();

@@ -32,16 +32,18 @@ def index():
 def sketch2():
 	return render_template("index_form.html")
 
+@app.route("/path3d")
+def path3d():
+	return render_template("path3d.html")
 
-@app.route("/test")
+@app.route("/form3d")
+def form3d():
+	return render_template("form3d.html")
 
-def bootstraptest():
-	return render_template("test.html")
-	
-@app.route("/zz")
+@app.route("/userdata")
+def userdata():
+	return render_template("userdata.html")
 
-def zz():
-	return render_template("zz.html")
 
 # start the webserver
 if __name__ == "__main__":
