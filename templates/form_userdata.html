@@ -64,4 +64,9 @@
 
 	{% block sketchURL %}
 	
+		{% for i in userdata %}
+			
+			<p> {{ i.FbalancedPoint }}</p>
+			
+		{% endfor %}
 	{% endblock %}

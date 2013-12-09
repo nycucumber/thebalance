@@ -60,16 +60,25 @@
 
 				var pjs = Processing.getInstanceById('mySketch');
 				var submission_data  = pjs.get_a();
-				
 			
-
+				
 				$.post("/", 
-					{value: submission_data,},
-				console.log(submission_data)
+					{"value": submission_data},
+				console.log(submission_data),"json"
 				);
 
 
 			});
+
+
+
+
+
+
+
+
+
+
 
 
 		})

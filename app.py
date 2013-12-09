@@ -6,6 +6,7 @@ from unidecode import unidecode
 from werkzeug import secure_filename
 from flask.ext.mongoengine import MongoEngine
 from mongoengine import *
+import requests
 
 
 
@@ -20,15 +21,18 @@ db = MongoEngine(app) # connect MongoEngine with Flask App
 
 # import data models
 import models
+app.debug = True
+
 
 @app.route("/", methods=['GET','POST'])
 def index():
+	app.logger.info('A value for debugging')
 
 	if request.method == 'POST':
+		
 		new_data = models.PathBalanceReport()
 		new_data.PbalancedPoint = request.form.get('value','')
 		new_data.save()
-
 	else:
 
 		return render_template("index_path.html")
@@ -37,9 +41,13 @@ def index():
 def sketch2():
 
 
-
+	if request.method == 'POST':
+		
+		new_data = models.FormBalanceReport()
+		new_data.FbalancedPoint = request.form.get('value','')
+		new_data.save()
+	else:
 		return render_template("index_form.html")
-
 
 
 @app.route("/path3d")

@@ -54,6 +54,23 @@ body{
 		$(this).removeClass('dropdown');
 		})
 
+			$("#submit").click(function(){
+
+				var pjs = Processing.getInstanceById('mySketch');
+				var submission_data  = pjs.get_a();
+			
+				
+				$.post("/Form", 
+					{"value": submission_data},
+				console.log(submission_data),"json"
+				);
+
+
+			});
+
+
+
+
 		})
 	</script>
 
@@ -80,7 +97,7 @@ body{
 
 {% block sketchURL %}
 <div>
- <canvas class="myCanvas"  data-processing-sources="/static/processing/Sphere_of_Particles/Sphere_of_Particles.pde"></canvas>
+ <canvas class="myCanvas"  id="mySketch" data-processing-sources="/static/processing/Sphere_of_Particles/Sphere_of_Particles.pde"></canvas>
 </div>
 <p id="submit">I CONSIDER THIS IS BALANCED</p>
 {% endblock %}
