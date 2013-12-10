@@ -24,7 +24,6 @@ a:hover {
 	text-decoration: none;
 }
 
-
 /*MENU*/
 
 
@@ -40,8 +39,9 @@ a:hover {
 .tabs {
 	top:-20px;
 	position: relative;
-	font-size: 18px;
-	color: white;
+	font-size: 16px;
+	font-weight: 700;
+	/*color: white;*/
 	display: inline;
 	text-align: right;
 }
@@ -52,16 +52,6 @@ a:hover {
 	font-size: 40px;
 }
 
-#toReport{
-	padding-left: 10px;
-	padding-right: 10px;
-	background-color: black;
-	font-size: 13px;
-	color: white;
-	position: fixed;
-	top: 0%;
-	left: 2.5%;
-}
 
 .dropdown {
 	padding-top: 15px;
@@ -69,13 +59,17 @@ a:hover {
 
 
 #submit {
+	border: none;
+    padding-top: 0px;
+    padding-bottom: 0px;
 	opacity: 0.3;
 	padding-left: 10px;
 	padding-right: 10px;
 	position: fixed;
 	font-size: 9px;
-	bottom: 2.8%;
+	bottom: 4.1%;
 	left: 30%;
+	margin: 0px;
 }
 
 
@@ -83,8 +77,68 @@ a:hover {
 	opacity: 1.0;
 }
 
+
+#gallery{
+    border: none;
+    padding-top: 0px;
+    padding-bottom: 0px;
+	opacity: 0.3;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin: 0px;
+	position: fixed;
+	font-size: 9px;
+	bottom: 4.1%;
+	left: 47%;
+
+}
+
+#gallery:hover{
+	opacity: 1.0;
+}
+
+
+
 #carousel-example-generic {
 	position: fixed;
+}
+
+#gallery_content{
+	position: fixed;
+	background-color: black;
+	top: 20%;
+	left: 10%;
+	text-align: center;
+	opacity: 0.5;
+	width: 500px;
+	height: 500px;
+
+}
+
+#loaded_data{
+	display: inline-block;
+	opacity: 1.0;
+	color: white;
+}
+
+/*RIGHT SIDE BAR*/
+
+#toPhysical {
+  position: fixed;
+  top: 0px;
+  bottom: 0px;
+  right: 0px;
+  width: 15px;
+  height: 100%;
+  
+}
+
+#pathimage{
+	position: fixed;
+	
+	right: 18%;
+
+	top: 10%;
 }
 
 /*FOOTER*/

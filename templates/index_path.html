@@ -7,99 +7,175 @@
 	{% block scriptAndStyle %}
 	<style type="text/css">
 
-		body{
-			background: white;
+	body{
+		background: white;
 
-		}
+	}
 
-		.title{
-			color: black;
-		}
+	.title{
+		color: black;
+	}
 
-		.tabs{
-			color: black;
-		}
+	.tabs{
+		color: black;
+	}
 
-		.footer{
-			color: black;
-		}
+	.footer{
+		color: black;
+	}
 
-		#toPath{
-			color:#272727;
-		}
+	#toPath{
+		color:#272727;
+	}
 
-		a:hover {
-			color: black;
-			text-decoration: none;
-		}
-
-
-		#submit {
-			color: white;
-			background-color: black;
-		}
+	a:hover {
+		color: black;
+		text-decoration: none;
+	}
 
 
+	#submit {
+		color: white;
+		background-color: black;
+	}
+
+	#gallery {
+		color: white;
+		background-color: black;
+	}
+
+	#toPhysical{
+		background-color: black;
+
+	}
+
+	.turnColor{
+		background-color: #A5A5A5;
+	}
 
 	</style>
 
 
 	<script>
 
-		$(document).ready(function(){
+	$(document).ready(function(){
 
-			$('#toReport').mouseover(function(){
-			$(this).addClass('dropdown');
-			})
+		$('#pathimage').hide();
 
-			$('#toReport').mouseleave(function(){
-			$(this).removeClass('dropdown');
-			})
+		$('#gallery_content').hide();
 
-			$("#submit").click(function(){
+		$('#toPhysical').mouseover(function(){
+			$(this).css('background-color','#A5A5A5');
+		})
 
-				var pjs = Processing.getInstanceById('mySketch');
-				var submission_data  = pjs.get_a();
+		$('#toPhysical').mouseleave(function(){
+			$(this).css('background-color','black');
+		})
+
+		var flip_image = 0;
+		
+		
+
+		$('#toPhysical').click(function(){
 			
-				
-				$.post("/", 
-					{"value": submission_data},
-				console.log(submission_data),"json"
+			
+			$('#mySketch').toggle();
+			$( "#pathimage" ).toggle(flip_image++ % 2 === 0 );
+			
+		})
+
+
+		$('#gallery').click(function(){
+
+			jQuery.ajax({
+				url : '/pathuserdata',
+				type: 'GET',
+
+				success : function(data) {
+					console.log("SUCCESS!");
+					console.log(data);
+					jQuery("#loaded_data").html(data);
+				},
+
+				error: function(err) {
+					console.warn("something went wrong");
+					console.warn(err);
+				}
+		}); // end of AJAX
+
+			$('#gallery_content').toggle();
+		});
+
+		
+
+		$("#submit").click(function(){
+
+			var pjs = Processing.getInstanceById('mySketch');
+			var submission_data  = pjs.get_a();
+
+
+			$.post("/", 
+				{"value": submission_data},
+				console.log(submission_data)
 				);
 
+			jQuery.ajax({
+				url : '/pathuserdata',
+				type: 'GET',
 
-			});
+				success : function(data) {
+					console.log("SUCCESS!");
+					console.log(data);
+					jQuery("#loaded_data").html(data);
+				},
+
+				error: function(err) {
+					console.warn("something went wrong");
+					console.warn(err);
+				}
+		}); // end of AJAX
+
+			$('#gallery_content').show();
 
 
 
+		});
+
+	})
+</script>
+
+{% endblock %}
+
+
+{% block bgmusic %}
+<audio autoplay="true" loop><source src="static/music/bg.mp3" type="audio/mpeg" /></audio>
+{% endblock %}
 
 
 
+{% block toPhysical %}
+<div id="toPhysical">
+
+	<div id="imageshowcase">
+		<img id="pathimage" src="/static/img/pathimage.png" width="60%">
+	</div>
+
+</div>
+
+{% endblock %}
 
 
-
-
-
-
-		})
-	</script>
-
-	{% endblock %}
-
-
-	{% block bgmusic %}
-	<audio autoplay="true" loop><source src="static/music/bg.mp3" type="audio/mpeg" /></audio>
-	{% endblock %}
 
 <div id="header">
 	<div class="title">
 		<p class="logo">BALANCE</p>
 
-		
+
 		<div class="tabs">
-		
+
 			{% block tabs %}
 			<a id="toPath" class="tab" href="/">PATH</a>
+			|
 			<a id="toForm" class="tab" href="/Form">FORM</a> 
 			{% endblock %}
 
@@ -108,19 +184,28 @@
 	</div>
 
 
-		{% block toreport %}
-	
-		<a id="toReport" href="/pathuserdata">BALANCE REPORT</a>
+	{% block toreport %}
 
-		{% endblock %}
+	<button id="gallery">GALLERY</button>
+
+	{% endblock %}
 </div>
 
-	{% block sketchURL %}
-	<div>
-	 <canvas id="mySketch" class="myCanvas" data-processing-sources="/static/processing/sketch2.pde"></canvas>
-	</div> 
-	<p id="submit">SUBMIT MY VERSION OF BALANCE</p>
-	{% endblock %}
+{% block sketchURL %}
+<div>
+	<canvas id="mySketch"  data-processing-sources="/static/processing/sketch2.pde"></canvas>
+</div> 
+<button id="submit">SUBMIT MY VERSION OF BALANCE</button>
+
+<div id="gallery_content">
+	<div id="loaded_data"></div>
+
+
+
+</div>
+{% endblock %}
+
+
 
 </body>
 {% endblock %}

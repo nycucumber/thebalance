@@ -38,41 +38,132 @@ body{
 }
 
 
+#gallery {
+	color: black;
+	background-color: white;
+}
+
+#gallery_content{
+	background-color: white;
+
+
+}
+#toPhysical{
+	background-color: white;
+}
+#loaded_data{
+	opacity: 1.0;
+	color: black;
+}
+
 </style>
 
 
 
 
-	
-	<script>
-		$(document).ready(function(){
-		$('#toReport').mouseover(function(){
-		$(this).addClass('dropdown');
+
+<script>
+$(document).ready(function(){
+
+	$('#gallery_content').hide();
+
+
+
+		$('#toPhysical').mouseover(function(){
+			$(this).css('background-color','#A5A5A5');
 		})
 
-		$('#toReport').mouseleave(function(){
-		$(this).removeClass('dropdown');
+		$('#toPhysical').mouseleave(function(){
+			$(this).css('background-color','white');
 		})
 
-			$("#submit").click(function(){
+		var flip_image = 0;
+		
+		
 
-				var pjs = Processing.getInstanceById('mySketch');
-				var submission_data  = pjs.get_a();
+		$('#toPhysical').click(function(){
 			
-				
-				$.post("/Form", 
-					{"value": submission_data},
-				console.log(submission_data),"json"
-				);
-
-
-			});
-
-
-
-
+			
+			$('#mySketch').toggle();
+			$( "#formimage" ).toggle(flip_image++ % 2 === 0 );
+			
 		})
-	</script>
+
+
+
+
+
+	$('#gallery').click(function(){
+
+		jQuery.ajax({
+			url : '/formuserdata',
+			type: 'GET',
+
+			success : function(data) {
+				console.log("SUCCESS!");
+				console.log(data);
+				jQuery("#loaded_data").html(data);
+			},
+
+			error: function(err) {
+				console.warn("something went wrong");
+				console.warn(err);
+			}
+		}); // end of AJAX
+
+		$('#gallery_content').toggle();
+	});
+
+
+
+		// $('#toReport').mouseover(function(){
+		// $(this).addClass('dropdown');
+		// })
+
+		// $('#toReport').mouseleave(function(){
+		// $(this).removeClass('dropdown');
+		// })
+
+$("#submit").click(function(){
+
+	var pjs = Processing.getInstanceById('mySketch');
+	var submission_data  = pjs.get_a();
+
+
+	$.post("/Form", 
+		{"value": submission_data},
+		console.log(submission_data),"json"
+		);
+
+
+			jQuery.ajax({
+			url : '/formuserdata',
+			type: 'GET',
+
+			success : function(data) {
+				console.log("SUCCESS!");
+				console.log(data);
+				jQuery("#loaded_data").html(data);
+			},
+
+			error: function(err) {
+				console.warn("something went wrong");
+				console.warn(err);
+			}
+		}); // end of AJAX
+
+		$('#gallery_content').show();
+
+
+
+
+});
+
+
+
+
+})
+</script>
 
 
 
@@ -81,25 +172,44 @@ body{
 
 
 {% block bgmusic %}
-	<audio autoplay="true" loop><source src="static/music/03a.mp3" type="audio/mpeg"/></audio>
+<audio autoplay="true" loop><source src="static/music/03a.mp3" type="audio/mpeg"/></audio>
 {% endblock %}
 
 
+{% block toPhysical %}
+<div id="toPhysical">
+
+	<div id="imageshowcase">
+		<img id="formimage" style="position:fixed;left:14%;display:none;"src="static/img/formimage.png" width="50%">
+	</div>
+
+</div>
+
+{% endblock %}
 
 
-		{% block toreport %}
-	
-		<a id="toReport" href="/formuserdata">BALANCE REPORT</a>
+{% block toreport %}
 
-		{% endblock %}
+	<button id="gallery" href="/formuserdata">GALLERY</button>
+
+{% endblock %}
 
 
 
 {% block sketchURL %}
 <div>
- <canvas class="myCanvas"  id="mySketch" data-processing-sources="/static/processing/Sphere_of_Particles/Sphere_of_Particles.pde"></canvas>
+	<canvas class="myCanvas"  id="mySketch" data-processing-sources="/static/processing/Sphere_of_Particles/Sphere_of_Particles.pde"></canvas>
 </div>
 <p id="submit">SUBMIT MY VERSION OF BALANCE</p>
+
+
+<div id="gallery_content">
+	<div id="loaded_data"></div>
+</div>
+
+
+
+
 {% endblock %}
 
 

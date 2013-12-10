@@ -35,7 +35,11 @@ def index():
 		new_data.save()
 	else:
 
-		return render_template("index_path.html")
+		templateData = {
+		'userdata': models.PathBalanceReport.objects(),
+		}
+
+		return render_template("index_path.html",**templateData)
 
 @app.route("/Form", methods=['GET','POST'])
 def sketch2():
@@ -47,7 +51,10 @@ def sketch2():
 		new_data.FbalancedPoint = request.form.get('value','')
 		new_data.save()
 	else:
-		return render_template("index_form.html")
+		templateData = {
+		'userdata': models.FormBalanceReport.objects(),
+		}
+		return render_template("index_form.html",**templateData)
 
 
 @app.route("/path3d")

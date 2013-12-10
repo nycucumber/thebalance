@@ -1,72 +1,11 @@
-{% extends "/index_form.html" %}
-
-
-	
-   
-	{% block scriptAndStyle %}
-	<style type="text/css">
-
-		
-	body{
-
-		background: black;
-
-	}
-
-	.title{
-		color: white;
-	}
-
-	.tabs{
-		color: white;
-	}
-
-	.footer{
-		color: white;
-	}
-
-	#toForm{
-		color:#f1f1f1;
-	}
-
-	#toReport {
-		color: black;
-		background-color: white;
-	}
-
-	#toReport{
- 			padding-top:15px;
- 		}
-	
-
-		
-	</style>
-	{% endblock %}
 
 
 
-		{% block toreport %}
-	
-		<a id="toReport" href="/Form">BACK</a>
+<p style="font-size:14px;">Gallery</p>
 
-		{% endblock %}
+{% for i in userdata %}
 
+<p style="display:inline"> {{ i.FbalancedPoint }}</p> //
 
+{% endfor %}
 
-			{% block tabs %}
-			<a id="toPath" class="tab" href="/pathuserdata">PATH</a>
-			<a id="toForm" class="tab" href="/formuserdata">FORM</a> 
-			{% endblock %}
-
-
-
-
-
-	{% block sketchURL %}
-	
-		{% for i in userdata %}
-			
-			<p style="color:white; text-align:centre"> {{ i.FbalancedPoint }}</p>
-			
-		{% endfor %}
-	{% endblock %}
