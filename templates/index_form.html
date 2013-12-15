@@ -84,8 +84,10 @@ $(document).ready(function(){
 		$('#toPhysical').click(function(){
 			
 			
-			$('#mySketch').toggle(400);
-			$( "#formimage" ).toggle(400);
+			$('#mySketch').toggle(600);
+			$( "#formimage" ).toggle(600);
+			$("#submit").toggle();
+			
 			
 		})
 
@@ -113,16 +115,6 @@ $(document).ready(function(){
 
 		$('#gallery_content').toggle();
 	});
-
-
-
-		// $('#toReport').mouseover(function(){
-		// $(this).addClass('dropdown');
-		// })
-
-		// $('#toReport').mouseleave(function(){
-		// $(this).removeClass('dropdown');
-		// })
 
 $("#submit").click(function(){
 
@@ -180,7 +172,7 @@ $("#submit").click(function(){
 <div id="toPhysical">
 
 	<div id="imageshowcase">
-		<img id="formimage" style="position:fixed;left:14%;display:none;"src="static/img/formimage.png" width="50%">
+		<img id="formimage" src="static/img/form_photo.jpg" width="100%">
 	</div>
 
 </div>

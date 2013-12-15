@@ -14,6 +14,7 @@ var page_width = $( document ).width();
 var page_height = $( document ).height();
 
 
+
 ArrayList<Curve> curves;
 Slider slider;
 Curve finalC;
@@ -94,6 +95,16 @@ void draw() {
     }
   }
 }
+
+
+void keyPressed() {
+  if (key == 'r' ){
+    saveFrame("path-####.jpeg");
+  }
+}
+
+
+
 
 float get_a(){
   return a;

@@ -41,7 +41,6 @@ a:hover {
 	position: relative;
 	font-size: 16px;
 	font-weight: 700;
-	/*color: white;*/
 	display: inline;
 	text-align: right;
 }
@@ -139,6 +138,12 @@ a:hover {
 	right: 18%;
 
 	top: 10%;
+}
+
+#formimage{
+	position:fixed;
+	left:0%;
+	display:none;
 }
 
 /*FOOTER*/
