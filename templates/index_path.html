@@ -115,18 +115,39 @@
 
 		$("#submit").click(function(){
 
-		// 	var myCanvas = document.getElementById('mySketch');
-		// 	var context = myCanvas.getContext('2d');
-		// 	var dataURL= myCanvas.toDataURL();
+			var myCanvas = document.getElementById('mySketch');
+			var context = myCanvas.getContext('2d');
+			
+
+
+			var img = new Image();
+
+			img.src = myCanvas.toDataURL('image/png');
+
+			img.width = 300;
+
+
+			
+			// $.post("/uploadfile", 
+			// 	{"file": img.src,
+			// 	"description":"path"
+			//     },
+			// 	console.log("")
+			// 	);
+
+			
+
+
 		// 	$.ajax({
 		// 		type: "POST",
 		// 		url: "/uploadfile",
 		// 		data: { 
-		// 			imgBase64: dataURL,
+		// 			file: ,
 		// 			description: "path"
 		// 		}
 		// 	}).done(function(o) {
 		// 		console.log('saved'); 
+				
 		// 	// If you want the file to be visible in the browser 
 		// 	// - please modify the callback in javascript. All you
 		// 	// need is to return the url to the file, you just saved 
@@ -135,8 +156,12 @@
 
 
 
+
 			var pjs = Processing.getInstanceById('mySketch');
-			var submission_data  = pjs.get_a();
+			var rawdata  = pjs.get_a();
+
+			var submission_data =  map(rawdata,-3,3,0,100);
+			//submission_data = Math.floor(submission_data);
 
 
 			$.post("/", 
@@ -150,7 +175,6 @@
 
 				success : function(data) {
 					console.log("SUCCESS!");
-					console.log(data);
 					jQuery("#loaded_data").html(data);
 				},
 
@@ -173,7 +197,7 @@
 
 
 {% block bgmusic %}
-<audio autoplay="true" loop><source src="static/music/bg.mp3" type="audio/mpeg" /></audio>
+<!-- <audio autoplay="true" loop><source src="static/music/bg.mp3" type="audio/mpeg" /></audio> -->
 {% endblock %}
 
 
@@ -193,6 +217,9 @@
 
 <div id="header">
 	<div class="title">
+
+
+		
 		<p class="logo">BALANCE</p>
 
 

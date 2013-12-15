@@ -1,12 +1,51 @@
 
 
 
-<p style="font-size:14px;">Gallery</p>
+<p class="gallery_in_title">GALLERY</p>
+
+
+<P> -- GALLERY WORKING ON PROGRESS --</P>
+
+<div id="all_data">
 
 {% for i in userdata %}
 
-<p style="display:inline">{{ i.PbalancedPoint }}</p>//
+{{ i.PbalancedPoint }} - 
 
 {% endfor %}
 
+</div>
 
+
+
+
+
+
+
+<p class="gallery_in_title" >AVERAGE</p>
+
+
+
+
+
+<p id="path_average"  >{{ average }} </p>
+
+
+
+<canvas id="path_average_bar" width="240" height="10">YOUR BROWSER DOESN'T SUPPORT CANVAS TAG, PLEASE DUMP IT</canvas>
+<script>
+var c=document.getElementById("path_average_bar");
+
+	var p_average = $("#path_average").text();
+	p_average =  map(p_average,0,100,0,240);
+	var a=c.getContext("2d");
+	
+	//background
+	a.fillStyle="#C9C9C9";
+	a.fillRect(0,0,240,10);
+
+    //bar
+	a.fillStyle="#646464";
+	a.fillRect(p_average,0,20,10);
+</script>
+</div>

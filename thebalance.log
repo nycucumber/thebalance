@@ -1,0 +1,1172 @@
+INFO:werkzeug: * Running on http://0.0.0.0:5000/
+INFO:werkzeug: * Restarting with reloader
+INFO:__main__:A value for debugging
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:02:22] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:02:23] "GET /static/processing/sketch2.pde HTTP/1.1" 200 -
+INFO:__main__:A value for debugging
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:02:49] "POST / HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:02:49] "GET /pathuserdata HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'app.py', reloading
+INFO:werkzeug: * Restarting with reloader
+INFO:werkzeug: * Detected change in 'app.py', reloading
+INFO:werkzeug: * Restarting with reloader
+INFO:__main__:A value for debugging
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:03:17] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:03:17] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:03:17] "GET /static/js/main.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:03:17] "GET /static/img/pathimage.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:03:17] "GET /static/processing/sketch2.pde HTTP/1.1" 200 -
+INFO:__main__:A value for debugging
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:03:29] "POST / HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:03:29] "GET /pathuserdata HTTP/1.1" 200 -
+INFO:__main__:A value for debugging
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:03:56] "POST / HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:03:57] "GET /pathuserdata HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'app.py', reloading
+INFO:werkzeug: * Restarting with reloader
+INFO:werkzeug: * Detected change in 'app.py', reloading
+INFO:werkzeug: * Restarting with reloader
+DEBUG:root:thisworks!
+INFO:werkzeug: * Detected change in 'app.py', reloading
+INFO:werkzeug: * Restarting with reloader
+WARNING:root:thisworks!
+INFO:werkzeug: * Detected change in 'app.py', reloading
+INFO:werkzeug: * Restarting with reloader
+INFO:werkzeug: * Detected change in 'app.py', reloading
+INFO:werkzeug: * Restarting with reloader
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:05:58] "GET /pathuserdata HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'app.py', reloading
+INFO:werkzeug: * Restarting with reloader
+INFO:werkzeug: * Detected change in 'app.py', reloading
+INFO:werkzeug: * Restarting with reloader
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:06:34] "GET /pathuserdata HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:06:34] "GET /pathuserdata?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:06:34] "GET /pathuserdata?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:06:34] "GET /pathuserdata?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:06:34] "GET /pathuserdata?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:06:34] "GET /pathuserdata?__debugger__=yes&cmd=resource&f=source.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:06:34] "GET /pathuserdata?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:06:34] "GET /pathuserdata?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'app.py', reloading
+INFO:werkzeug: * Restarting with reloader
+INFO:werkzeug: * Detected change in 'app.py', reloading
+INFO:werkzeug: * Restarting with reloader
+INFO:werkzeug: * Detected change in 'app.py', reloading
+INFO:werkzeug: * Restarting with reloader
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:08:01] "GET /pathuserdata HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:08:01] "GET /pathuserdata?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:08:01] "GET /pathuserdata?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:08:01] "GET /pathuserdata?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:08:01] "GET /pathuserdata?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:08:01] "GET /pathuserdata?__debugger__=yes&cmd=resource&f=source.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:08:01] "GET /pathuserdata?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:08:01] "GET /pathuserdata?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:08:02] "GET /pathuserdata HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:08:02] "GET /pathuserdata?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:08:02] "GET /pathuserdata?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:08:02] "GET /pathuserdata?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:08:02] "GET /pathuserdata?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:08:02] "GET /pathuserdata?__debugger__=yes&cmd=resource&f=source.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:08:02] "GET /pathuserdata?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:08:02] "GET /pathuserdata?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:08:03] "GET /pathuserdata HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:08:03] "GET /pathuserdata?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:08:03] "GET /pathuserdata?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:08:03] "GET /pathuserdata?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:08:03] "GET /pathuserdata?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:08:03] "GET /pathuserdata?__debugger__=yes&cmd=resource&f=source.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:08:03] "GET /pathuserdata?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:08:03] "GET /pathuserdata?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'app.py', reloading
+INFO:werkzeug: * Restarting with reloader
+INFO:werkzeug: * Detected change in 'app.py', reloading
+INFO:werkzeug: * Restarting with reloader
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:08:15] "GET /pathuserdata HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:08:15] "GET /pathuserdata?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:08:15] "GET /pathuserdata?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:08:15] "GET /pathuserdata?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:08:15] "GET /pathuserdata?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:08:15] "GET /pathuserdata?__debugger__=yes&cmd=resource&f=source.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:08:16] "GET /pathuserdata?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:08:16] "GET /pathuserdata?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:08:17] "GET /pathuserdata HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:08:17] "GET /pathuserdata?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:08:17] "GET /pathuserdata?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:08:17] "GET /pathuserdata?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:08:17] "GET /pathuserdata?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:08:17] "GET /pathuserdata?__debugger__=yes&cmd=resource&f=source.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:08:17] "GET /pathuserdata?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:08:17] "GET /pathuserdata?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'app.py', reloading
+INFO:werkzeug: * Restarting with reloader
+INFO:werkzeug: * Detected change in 'app.py', reloading
+INFO:werkzeug: * Restarting with reloader
+INFO:werkzeug: * Detected change in 'app.py', reloading
+INFO:werkzeug: * Restarting with reloader
+INFO:werkzeug: * Detected change in 'app.py', reloading
+INFO:werkzeug: * Restarting with reloader
+INFO:werkzeug: * Detected change in 'app.py', reloading
+INFO:werkzeug: * Restarting with reloader
+INFO:werkzeug: * Detected change in 'app.py', reloading
+INFO:werkzeug: * Restarting with reloader
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:09:32] "GET /pathuserdata HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:09:32] "GET /pathuserdata?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:09:32] "GET /pathuserdata?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:09:32] "GET /pathuserdata?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:09:32] "GET /pathuserdata?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:09:32] "GET /pathuserdata?__debugger__=yes&cmd=resource&f=source.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:09:32] "GET /pathuserdata?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:09:32] "GET /pathuserdata?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'app.py', reloading
+INFO:werkzeug: * Restarting with reloader
+INFO:werkzeug: * Detected change in 'app.py', reloading
+INFO:werkzeug: * Restarting with reloader
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:10:15] "GET /pathuserdata HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:10:15] "GET /pathuserdata?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:10:15] "GET /pathuserdata?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:10:15] "GET /pathuserdata?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:10:15] "GET /pathuserdata?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:10:15] "GET /pathuserdata?__debugger__=yes&cmd=resource&f=source.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:10:15] "GET /pathuserdata?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:10:15] "GET /pathuserdata?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:10:16] "GET /pathuserdata HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:10:16] "GET /pathuserdata?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:10:16] "GET /pathuserdata?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:10:16] "GET /pathuserdata?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:10:16] "GET /pathuserdata?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:10:16] "GET /pathuserdata?__debugger__=yes&cmd=resource&f=source.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:10:16] "GET /pathuserdata?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:10:16] "GET /pathuserdata?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'app.py', reloading
+INFO:werkzeug: * Restarting with reloader
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:10:20] "GET /pathuserdata HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:10:20] "GET /pathuserdata?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:10:20] "GET /pathuserdata?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:10:20] "GET /pathuserdata?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:10:20] "GET /pathuserdata?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:10:20] "GET /pathuserdata?__debugger__=yes&cmd=resource&f=source.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:10:20] "GET /pathuserdata?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:10:20] "GET /pathuserdata?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:10:20] "GET /pathuserdata HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:10:20] "GET /pathuserdata?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:10:20] "GET /pathuserdata?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:10:20] "GET /pathuserdata?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:10:20] "GET /pathuserdata?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:10:20] "GET /pathuserdata?__debugger__=yes&cmd=resource&f=source.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:10:21] "GET /pathuserdata?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:10:21] "GET /pathuserdata?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'app.py', reloading
+INFO:werkzeug: * Restarting with reloader
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:10:32] "GET /pathuserdata HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:10:32] "GET /pathuserdata?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:10:32] "GET /pathuserdata?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:10:32] "GET /pathuserdata?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:10:32] "GET /pathuserdata?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:10:32] "GET /pathuserdata?__debugger__=yes&cmd=resource&f=source.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:10:32] "GET /pathuserdata?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:10:32] "GET /pathuserdata?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:10:32] "GET /pathuserdata HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:10:32] "GET /pathuserdata?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:10:32] "GET /pathuserdata?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:10:32] "GET /pathuserdata?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:10:32] "GET /pathuserdata?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:10:32] "GET /pathuserdata?__debugger__=yes&cmd=resource&f=source.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:10:32] "GET /pathuserdata?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:10:33] "GET /pathuserdata?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'app.py', reloading
+INFO:werkzeug: * Restarting with reloader
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:10:35] "GET /pathuserdata HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:10:35] "GET /pathuserdata?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:10:35] "GET /pathuserdata?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:10:35] "GET /pathuserdata?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:10:35] "GET /pathuserdata?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:10:35] "GET /pathuserdata?__debugger__=yes&cmd=resource&f=source.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:10:35] "GET /pathuserdata?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:10:35] "GET /pathuserdata?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:10:35] "GET /pathuserdata HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:10:35] "GET /pathuserdata?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:10:35] "GET /pathuserdata?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:10:35] "GET /pathuserdata?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:10:35] "GET /pathuserdata?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:10:35] "GET /pathuserdata?__debugger__=yes&cmd=resource&f=source.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:10:35] "GET /pathuserdata?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:10:35] "GET /pathuserdata?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:10:36] "GET /pathuserdata HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:10:36] "GET /pathuserdata?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:10:36] "GET /pathuserdata?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:10:36] "GET /pathuserdata?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:10:36] "GET /pathuserdata?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:10:36] "GET /pathuserdata?__debugger__=yes&cmd=resource&f=source.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:10:36] "GET /pathuserdata?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:10:36] "GET /pathuserdata?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:10:36] "GET /pathuserdata HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:10:36] "GET /pathuserdata?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:10:36] "GET /pathuserdata?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:10:36] "GET /pathuserdata?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:10:36] "GET /pathuserdata?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:10:36] "GET /pathuserdata?__debugger__=yes&cmd=resource&f=source.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:10:36] "GET /pathuserdata?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:10:36] "GET /pathuserdata?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'app.py', reloading
+INFO:werkzeug: * Restarting with reloader
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:10:49] "GET /pathuserdata HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:10:49] "GET /pathuserdata?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:10:49] "GET /pathuserdata?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:10:49] "GET /pathuserdata?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:10:49] "GET /pathuserdata?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:10:49] "GET /pathuserdata?__debugger__=yes&cmd=resource&f=source.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:10:49] "GET /pathuserdata?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:10:49] "GET /pathuserdata?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:10:50] "GET /pathuserdata HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:10:50] "GET /pathuserdata?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:10:50] "GET /pathuserdata?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:10:50] "GET /pathuserdata?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:10:50] "GET /pathuserdata?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:10:50] "GET /pathuserdata?__debugger__=yes&cmd=resource&f=source.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:10:50] "GET /pathuserdata?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:10:50] "GET /pathuserdata?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:10:51] "GET /pathuserdata HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:10:51] "GET /pathuserdata?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:10:51] "GET /pathuserdata?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:10:51] "GET /pathuserdata?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:10:51] "GET /pathuserdata?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:10:51] "GET /pathuserdata?__debugger__=yes&cmd=resource&f=source.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:10:51] "GET /pathuserdata?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:10:51] "GET /pathuserdata?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'app.py', reloading
+INFO:werkzeug: * Restarting with reloader
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:11:13] "GET /pathuserdata HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'app.py', reloading
+INFO:werkzeug: * Restarting with reloader
+INFO:werkzeug: * Detected change in 'app.py', reloading
+INFO:werkzeug: * Restarting with reloader
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:11:29] "GET /pathuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:11:30] "GET /pathuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:11:30] "GET /pathuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:11:31] "GET /pathuserdata HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'app.py', reloading
+INFO:werkzeug: * Restarting with reloader
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:11:33] "GET /pathuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:11:35] "GET /pathuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:11:36] "GET /pathuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:11:37] "GET /pathuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:11:38] "GET /pathuserdata HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'app.py', reloading
+INFO:werkzeug: * Restarting with reloader
+INFO:werkzeug: * Detected change in 'app.py', reloading
+INFO:werkzeug: * Restarting with reloader
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:11:42] "GET /pathuserdata HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:11:42] "GET /pathuserdata?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:11:42] "GET /pathuserdata?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:11:42] "GET /pathuserdata?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:11:42] "GET /pathuserdata?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:11:42] "GET /pathuserdata?__debugger__=yes&cmd=resource&f=source.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:11:42] "GET /pathuserdata?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:11:42] "GET /pathuserdata?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:11:44] "GET /pathuserdata HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:11:44] "GET /pathuserdata?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:11:44] "GET /pathuserdata?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:11:44] "GET /pathuserdata?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:11:44] "GET /pathuserdata?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:11:44] "GET /pathuserdata?__debugger__=yes&cmd=resource&f=source.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:11:44] "GET /pathuserdata?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:11:44] "GET /pathuserdata?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'app.py', reloading
+INFO:werkzeug: * Restarting with reloader
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:11:48] "GET /pathuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:11:49] "GET /pathuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:11:49] "GET /pathuserdata HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'app.py', reloading
+INFO:werkzeug: * Restarting with reloader
+INFO:werkzeug: * Detected change in 'app.py', reloading
+INFO:werkzeug: * Restarting with reloader
+DEBUG:root:0.0
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:11:59] "GET /pathuserdata HTTP/1.1" 200 -
+DEBUG:root:0.0
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:12:00] "GET /pathuserdata HTTP/1.1" 200 -
+DEBUG:root:0.0
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:12:14] "GET /pathuserdata HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'app.py', reloading
+INFO:werkzeug: * Restarting with reloader
+INFO:werkzeug: * Detected change in 'app.py', reloading
+INFO:werkzeug: * Restarting with reloader
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:13:27] "GET /pathuserdata HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:13:27] "GET /pathuserdata?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:13:27] "GET /pathuserdata?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:13:27] "GET /pathuserdata?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:13:27] "GET /pathuserdata?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:13:27] "GET /pathuserdata?__debugger__=yes&cmd=resource&f=source.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:13:27] "GET /pathuserdata?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:13:27] "GET /pathuserdata?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'app.py', reloading
+INFO:werkzeug: * Restarting with reloader
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:15:16] "GET /pathuserdata HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:15:16] "GET /pathuserdata?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:15:16] "GET /pathuserdata?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:15:16] "GET /pathuserdata?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:15:16] "GET /pathuserdata?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:15:16] "GET /pathuserdata?__debugger__=yes&cmd=resource&f=source.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:15:16] "GET /pathuserdata?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:15:16] "GET /pathuserdata?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:15:17] "GET /pathuserdata HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:15:17] "GET /pathuserdata?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:15:17] "GET /pathuserdata?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:15:17] "GET /pathuserdata?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:15:17] "GET /pathuserdata?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:15:17] "GET /pathuserdata?__debugger__=yes&cmd=resource&f=source.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:15:17] "GET /pathuserdata?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:15:17] "GET /pathuserdata?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'app.py', reloading
+INFO:werkzeug: * Restarting with reloader
+DEBUG:root:1384.16315789
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:15:32] "GET /pathuserdata HTTP/1.1" 200 -
+DEBUG:root:1384.16315789
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:15:33] "GET /pathuserdata HTTP/1.1" 200 -
+DEBUG:root:1384.16315789
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:15:34] "GET /pathuserdata HTTP/1.1" 200 -
+DEBUG:root:1384.16315789
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:15:38] "GET /pathuserdata HTTP/1.1" 200 -
+DEBUG:root:1384.16315789
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:15:38] "GET /pathuserdata HTTP/1.1" 200 -
+DEBUG:root:1384.16315789
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:15:39] "GET /pathuserdata HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'app.py', reloading
+INFO:werkzeug: * Restarting with reloader
+DEBUG:root:1384.16315789
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:15:56] "GET /pathuserdata HTTP/1.1" 200 -
+DEBUG:root:1384.16315789
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:15:57] "GET /pathuserdata HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'app.py', reloading
+INFO:werkzeug: * Restarting with reloader
+DEBUG:root:1384.16315789
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:16:09] "GET /pathuserdata HTTP/1.1" 200 -
+DEBUG:root:1384.16315789
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:16:10] "GET /pathuserdata HTTP/1.1" 200 -
+DEBUG:root:1384.16315789
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:16:12] "GET /pathuserdata HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'app.py', reloading
+INFO:werkzeug: * Restarting with reloader
+INFO:werkzeug: * Detected change in 'app.py', reloading
+INFO:werkzeug: * Restarting with reloader
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:16:50] "GET /pathuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:16:52] "GET /pathuserdata HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'app.py', reloading
+INFO:werkzeug: * Restarting with reloader
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:16:56] "GET /pathuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:16:57] "GET /pathuserdata HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'app.py', reloading
+INFO:werkzeug: * Restarting with reloader
+INFO:__main__:A value for debugging
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:17:04] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:17:05] "GET /static/processing/sketch2.pde HTTP/1.1" 200 -
+INFO:__main__:A value for debugging
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:17:07] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:17:07] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:17:07] "GET /static/js/main.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:17:07] "GET /static/img/pathimage.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:17:07] "GET /static/processing/sketch2.pde HTTP/1.1" 200 -
+INFO:__main__:A value for debugging
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:17:12] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:17:12] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:17:12] "GET /static/js/main.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:17:12] "GET /static/img/pathimage.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:17:12] "GET /static/processing/sketch2.pde HTTP/1.1" 200 -
+INFO:__main__:A value for debugging
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:17:13] "POST / HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:17:14] "GET /pathuserdata HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'app.py', reloading
+INFO:werkzeug: * Restarting with reloader
+INFO:werkzeug: * Detected change in 'app.py', reloading
+INFO:werkzeug: * Restarting with reloader
+INFO:werkzeug: * Detected change in 'app.py', reloading
+INFO:werkzeug: * Restarting with reloader
+INFO:__main__:A value for debugging
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:20:31] "GET / HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'app.py', reloading
+INFO:werkzeug: * Restarting with reloader
+INFO:werkzeug: * Detected change in 'app.py', reloading
+INFO:werkzeug: * Restarting with reloader
+INFO:werkzeug: * Detected change in 'app.py', reloading
+INFO:werkzeug: * Restarting with reloader
+INFO:werkzeug: * Detected change in 'app.py', reloading
+INFO:werkzeug: * Restarting with reloader
+INFO:__main__:A value for debugging
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:27:01] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:27:01] "GET /static/processing/sketch2.pde HTTP/1.1" 200 -
+INFO:__main__:A value for debugging
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:27:03] "POST / HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:27:04] "GET /pathuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:27:05] "GET /Form HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:27:06] "GET /static/processing/Sphere_of_Particles/Sphere_of_Particles.pde HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:27:08] "POST /Form HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:27:08] "GET /formuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:27:11] "GET /Form HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:27:11] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:27:11] "GET /static/js/main.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:27:11] "GET /static/img/form_photo.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:27:11] "GET /static/processing/Sphere_of_Particles/Sphere_of_Particles.pde HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:27:12] "POST /Form HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:27:12] "GET /formuserdata HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'app.py', reloading
+INFO:werkzeug: * Restarting with reloader
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:27:41] "GET /Form HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:27:41] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:27:41] "GET /static/js/main.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:27:41] "GET /static/img/form_photo.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:27:41] "GET /static/processing/Sphere_of_Particles/Sphere_of_Particles.pde HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:27:43] "POST /Form HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:27:43] "GET /formuserdata HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'app.py', reloading
+INFO:werkzeug: * Restarting with reloader
+INFO:werkzeug: * Detected change in 'app.py', reloading
+INFO:werkzeug: * Restarting with reloader
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:28:16] "GET /Form HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:28:16] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:28:16] "GET /static/js/main.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:28:16] "GET /static/img/form_photo.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:28:17] "GET /static/processing/Sphere_of_Particles/Sphere_of_Particles.pde HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:28:19] "POST /Form HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:28:19] "GET /formuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:28:20] "POST /Form HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:28:21] "GET /formuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:28:21] "POST /Form HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:28:22] "POST /Form HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:28:22] "GET /formuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:28:25] "POST /Form HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:28:26] "GET /formuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:28:27] "POST /Form HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:28:27] "GET /formuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:28:29] "POST /Form HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:28:29] "GET /formuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:28:30] "POST /Form HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:28:30] "GET /formuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:28:33] "POST /Form HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:28:33] "GET /formuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:28:36] "POST /Form HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:28:36] "GET /formuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:28:39] "POST /Form HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:28:39] "GET /formuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:28:39] "GET /Form HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:28:39] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:28:39] "GET /static/js/main.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:28:39] "GET /static/img/form_photo.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:28:40] "GET /static/processing/Sphere_of_Particles/Sphere_of_Particles.pde HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:28:48] "GET /Form HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:28:48] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:28:48] "GET /static/js/main.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:28:48] "GET /static/img/form_photo.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:28:48] "GET /static/processing/Sphere_of_Particles/Sphere_of_Particles.pde HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'app.py', reloading
+INFO:werkzeug: * Restarting with reloader
+INFO:werkzeug: * Detected change in 'app.py', reloading
+INFO:werkzeug: * Restarting with reloader
+INFO:werkzeug: * Detected change in 'app.py', reloading
+INFO:werkzeug: * Restarting with reloader
+INFO:werkzeug: * Detected change in 'app.py', reloading
+INFO:werkzeug: * Restarting with reloader
+INFO:__main__:A value for debugging
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:45:54] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:45:55] "GET /static/processing/sketch2.pde HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:45:56] "GET /Form HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:45:56] "GET /static/processing/Sphere_of_Particles/Sphere_of_Particles.pde HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:45:57] "POST /Form HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:45:57] "GET /formuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:46:22] "GET /formuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:46:24] "GET /formuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:46:25] "GET /formuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:46:25] "GET /formuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:46:27] "POST /Form HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:46:27] "GET /formuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:46:28] "GET /formuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:49:24] "GET /Form HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:49:25] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:49:25] "GET /static/js/main.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:49:25] "GET /static/img/form_photo.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:49:25] "GET /static/processing/Sphere_of_Particles/Sphere_of_Particles.pde HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:49:26] "POST /Form HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:49:26] "GET /formuserdata HTTP/1.1" 200 -
+INFO:__main__:A value for debugging
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:50:31] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:50:32] "GET /static/processing/sketch2.pde HTTP/1.1" 200 -
+INFO:__main__:A value for debugging
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:50:33] "POST / HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:50:33] "GET /pathuserdata HTTP/1.1" 200 -
+INFO:__main__:A value for debugging
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:50:34] "POST / HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:50:34] "GET /pathuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:50:35] "GET /Form HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:50:35] "GET /static/processing/Sphere_of_Particles/Sphere_of_Particles.pde HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:50:37] "POST /Form HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:50:37] "GET /formuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:50:48] "POST /Form HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:50:49] "GET /formuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:50:53] "GET /Form HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:50:53] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:50:53] "GET /static/js/main.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:50:53] "GET /static/img/form_photo.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:50:53] "GET /static/processing/Sphere_of_Particles/Sphere_of_Particles.pde HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:50:55] "GET /formuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 01:50:56] "GET /formuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:00:20] "GET /pathuserdata HTTP/1.1" 200 -
+INFO:__main__:A value for debugging
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:00:33] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:00:33] "GET /static/processing/sketch2.pde HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:00:35] "GET /Form HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:00:35] "GET /static/processing/Sphere_of_Particles/Sphere_of_Particles.pde HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:00:36] "POST /Form HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:00:36] "GET /formuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:01:06] "GET /Form HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:01:07] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:01:07] "GET /static/js/main.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:01:07] "GET /static/img/form_photo.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:01:07] "GET /static/processing/Sphere_of_Particles/Sphere_of_Particles.pde HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:01:08] "POST /Form HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:01:08] "GET /formuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:01:18] "GET /Form HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:01:18] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:01:18] "GET /static/js/main.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:01:18] "GET /static/img/form_photo.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:01:18] "GET /static/processing/Sphere_of_Particles/Sphere_of_Particles.pde HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:01:19] "POST /Form HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:01:19] "GET /formuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:05:18] "GET /Form HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:05:18] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:05:18] "GET /static/js/main.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:05:18] "GET /static/img/form_photo.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:05:19] "GET /static/processing/Sphere_of_Particles/Sphere_of_Particles.pde HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:07:26] "GET /Form HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:07:26] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:07:26] "GET /static/js/main.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:07:26] "GET /static/img/form_photo.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:07:26] "GET /static/processing/Sphere_of_Particles/Sphere_of_Particles.pde HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:07:28] "POST /Form HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:07:28] "GET /formuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:07:40] "GET /Form HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:07:40] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:07:40] "GET /static/js/main.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:07:40] "GET /static/img/form_photo.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:07:41] "GET /static/processing/Sphere_of_Particles/Sphere_of_Particles.pde HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:07:42] "POST /Form HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:07:42] "GET /formuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:08:06] "GET /Form HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:08:06] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:08:06] "GET /static/js/main.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:08:06] "GET /static/img/form_photo.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:08:07] "GET /static/processing/Sphere_of_Particles/Sphere_of_Particles.pde HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:08:08] "POST /Form HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:08:08] "GET /formuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:08:39] "GET /Form HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:08:39] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:08:39] "GET /static/js/main.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:08:39] "GET /static/img/form_photo.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:08:39] "GET /static/processing/Sphere_of_Particles/Sphere_of_Particles.pde HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:08:41] "POST /Form HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:08:41] "GET /formuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:09:21] "GET /Form HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:09:21] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:09:21] "GET /static/js/main.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:09:21] "GET /static/img/form_photo.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:09:22] "GET /static/processing/Sphere_of_Particles/Sphere_of_Particles.pde HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:09:23] "POST /Form HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:09:23] "GET /formuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:09:49] "GET /Form HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:09:49] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:09:49] "GET /static/js/main.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:09:49] "GET /static/img/form_photo.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:09:49] "GET /static/processing/Sphere_of_Particles/Sphere_of_Particles.pde HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:09:51] "POST /Form HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:09:51] "GET /formuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:10:22] "GET /Form HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:10:22] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:10:22] "GET /static/js/main.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:10:23] "GET /static/img/form_photo.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:10:23] "GET /static/processing/Sphere_of_Particles/Sphere_of_Particles.pde HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:10:24] "POST /Form HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:10:24] "GET /formuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:12:17] "GET /Form HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:12:17] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:12:17] "GET /static/js/main.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:12:17] "GET /static/img/form_photo.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:12:17] "GET /static/processing/Sphere_of_Particles/Sphere_of_Particles.pde HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:12:18] "POST /Form HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:12:18] "GET /formuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:13:44] "GET /Form HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:13:44] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:13:44] "GET /static/js/main.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:13:44] "GET /static/img/form_photo.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:13:44] "GET /static/processing/Sphere_of_Particles/Sphere_of_Particles.pde HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:13:46] "POST /Form HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:13:46] "GET /formuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:14:00] "GET /Form HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:14:00] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:14:00] "GET /static/js/main.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:14:00] "GET /static/img/form_photo.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:14:00] "GET /static/processing/Sphere_of_Particles/Sphere_of_Particles.pde HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:14:02] "POST /Form HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:14:02] "GET /formuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:14:49] "GET /Form HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:14:49] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:14:49] "GET /static/js/main.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:14:49] "GET /static/img/form_photo.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:14:50] "GET /static/processing/Sphere_of_Particles/Sphere_of_Particles.pde HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:14:52] "POST /Form HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:14:52] "GET /formuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:14:59] "GET /Form HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:14:59] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:14:59] "GET /static/js/main.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:14:59] "GET /static/img/form_photo.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:14:59] "GET /static/processing/Sphere_of_Particles/Sphere_of_Particles.pde HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:15:01] "POST /Form HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:15:01] "GET /formuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:15:04] "POST /Form HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:15:04] "GET /formuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:15:04] "POST /Form HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:15:05] "GET /formuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:15:05] "POST /Form HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:15:05] "GET /formuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:15:05] "POST /Form HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:15:05] "POST /Form HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:15:05] "GET /formuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:15:05] "POST /Form HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:15:06] "POST /Form HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:15:06] "GET /formuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:15:06] "POST /Form HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:15:06] "POST /Form HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:15:06] "GET /formuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:15:06] "POST /Form HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:15:06] "POST /Form HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:15:06] "GET /formuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:15:06] "POST /Form HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:15:07] "POST /Form HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:15:07] "GET /formuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:15:07] "POST /Form HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:15:07] "POST /Form HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:15:07] "GET /formuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:15:07] "POST /Form HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:15:07] "POST /Form HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:15:07] "GET /formuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:15:07] "POST /Form HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:15:08] "POST /Form HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:15:08] "GET /formuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:15:08] "POST /Form HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:15:08] "POST /Form HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:15:08] "GET /formuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:15:08] "POST /Form HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:15:08] "POST /Form HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:15:08] "GET /formuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:15:08] "POST /Form HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:15:13] "POST /Form HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:15:13] "GET /formuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:15:13] "POST /Form HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:15:13] "GET /formuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:15:13] "POST /Form HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:15:13] "POST /Form HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:15:13] "GET /formuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:15:13] "POST /Form HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:15:26] "GET /Form HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:15:26] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:15:26] "GET /static/js/main.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:15:26] "GET /static/img/form_photo.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:15:26] "GET /static/processing/Sphere_of_Particles/Sphere_of_Particles.pde HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:15:28] "POST /Form HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:15:28] "GET /formuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:15:30] "POST /Form HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:15:31] "GET /formuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:15:33] "POST /Form HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:15:33] "GET /formuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:15:33] "POST /Form HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:15:33] "POST /Form HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:15:34] "GET /formuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:15:34] "POST /Form HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:15:34] "POST /Form HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:15:34] "GET /formuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:15:34] "POST /Form HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:15:34] "POST /Form HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:15:34] "GET /formuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:15:34] "POST /Form HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:15:34] "POST /Form HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:15:35] "GET /formuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:15:37] "GET /Form HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:15:37] "GET /static/processing/Sphere_of_Particles/Sphere_of_Particles.pde HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:15:39] "POST /Form HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:15:39] "GET /formuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:17:05] "GET /Form HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:17:05] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:17:06] "GET /static/js/main.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:17:06] "GET /static/img/form_photo.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:17:06] "GET /static/processing/Sphere_of_Particles/Sphere_of_Particles.pde HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:17:08] "POST /Form HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:17:08] "GET /formuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:17:14] "GET /Form HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:17:14] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:17:14] "GET /static/js/main.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:17:14] "GET /static/img/form_photo.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:17:14] "GET /static/processing/Sphere_of_Particles/Sphere_of_Particles.pde HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:17:16] "POST /Form HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:17:16] "GET /formuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:18:43] "GET /Form HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:18:43] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:18:43] "GET /static/js/main.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:18:43] "GET /static/img/form_photo.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:18:43] "GET /static/processing/Sphere_of_Particles/Sphere_of_Particles.pde HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:18:45] "POST /Form HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:18:45] "GET /formuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:19:01] "GET /formuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:19:01] "GET /formuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:19:04] "GET /formuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:20:13] "GET /Form HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:20:13] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:20:13] "GET /static/js/main.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:20:13] "GET /static/img/form_photo.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:20:13] "GET /static/processing/Sphere_of_Particles/Sphere_of_Particles.pde HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:20:14] "POST /Form HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:20:14] "GET /formuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:20:41] "GET /Form HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:20:41] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:20:41] "GET /static/js/main.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:20:41] "GET /static/img/form_photo.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:20:41] "GET /static/processing/Sphere_of_Particles/Sphere_of_Particles.pde HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:20:43] "POST /Form HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:20:43] "GET /formuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:20:52] "POST /Form HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:20:52] "GET /formuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:20:52] "POST /Form HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:20:52] "GET /formuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:20:53] "POST /Form HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:20:53] "GET /formuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:20:54] "GET /formuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:20:54] "GET /formuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:20:55] "GET /formuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:20:56] "GET /formuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:20:56] "GET /formuserdata HTTP/1.1" 200 -
+INFO:__main__:A value for debugging
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:20:58] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:20:58] "GET /static/processing/sketch2.pde HTTP/1.1" 200 -
+INFO:__main__:A value for debugging
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:20:59] "POST / HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:20:59] "GET /pathuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:21:06] "GET /Form HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:21:06] "GET /static/processing/Sphere_of_Particles/Sphere_of_Particles.pde HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:21:07] "POST /Form HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:21:07] "GET /formuserdata HTTP/1.1" 200 -
+INFO:__main__:A value for debugging
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:21:10] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:21:10] "GET /static/processing/sketch2.pde HTTP/1.1" 200 -
+INFO:__main__:A value for debugging
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:21:11] "POST / HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:21:11] "GET /pathuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:21:16] "GET /Form HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:21:16] "GET /static/processing/Sphere_of_Particles/Sphere_of_Particles.pde HTTP/1.1" 200 -
+INFO:__main__:A value for debugging
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:21:18] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:21:18] "GET /static/processing/sketch2.pde HTTP/1.1" 200 -
+INFO:__main__:A value for debugging
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:21:44] "POST / HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:21:44] "GET /pathuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:22:06] "GET /Form HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:22:06] "GET /static/processing/Sphere_of_Particles/Sphere_of_Particles.pde HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:22:07] "POST /Form HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:22:07] "GET /formuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:23:06] "GET /Form HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:23:06] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:23:06] "GET /static/js/main.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:23:06] "GET /static/img/form_photo.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:23:06] "GET /static/processing/Sphere_of_Particles/Sphere_of_Particles.pde HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:23:08] "GET /Form HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:23:08] "GET /static/processing/Sphere_of_Particles/Sphere_of_Particles.pde HTTP/1.1" 200 -
+INFO:__main__:A value for debugging
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:23:09] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:23:09] "GET /static/processing/sketch2.pde HTTP/1.1" 200 -
+INFO:__main__:A value for debugging
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:23:11] "POST / HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:23:11] "GET /pathuserdata HTTP/1.1" 200 -
+INFO:__main__:A value for debugging
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:23:21] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:23:21] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:23:21] "GET /static/js/main.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:23:21] "GET /static/img/pathimage.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:23:21] "GET /static/processing/sketch2.pde HTTP/1.1" 200 -
+INFO:__main__:A value for debugging
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:23:23] "POST / HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:23:23] "GET /pathuserdata HTTP/1.1" 200 -
+INFO:__main__:A value for debugging
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:23:24] "POST / HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:23:25] "GET /pathuserdata HTTP/1.1" 200 -
+INFO:__main__:A value for debugging
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:23:29] "POST / HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:23:29] "GET /pathuserdata HTTP/1.1" 200 -
+INFO:__main__:A value for debugging
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:23:30] "POST / HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:23:30] "GET /pathuserdata HTTP/1.1" 200 -
+INFO:__main__:A value for debugging
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:23:31] "POST / HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:23:31] "GET /pathuserdata HTTP/1.1" 200 -
+INFO:__main__:A value for debugging
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:23:31] "POST / HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:23:32] "GET /pathuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:23:33] "GET /pathuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:23:34] "GET /pathuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:23:35] "GET /pathuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:23:39] "GET /Form HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:23:39] "GET /static/processing/Sphere_of_Particles/Sphere_of_Particles.pde HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:23:42] "POST /Form HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:23:42] "GET /formuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:23:48] "POST /Form HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:23:48] "GET /formuserdata HTTP/1.1" 200 -
+INFO:__main__:A value for debugging
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:24:40] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:24:41] "GET /static/processing/sketch2.pde HTTP/1.1" 200 -
+INFO:__main__:A value for debugging
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:24:42] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:24:42] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:24:42] "GET /static/js/main.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:24:42] "GET /static/img/pathimage.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:24:42] "GET /static/processing/sketch2.pde HTTP/1.1" 200 -
+INFO:__main__:A value for debugging
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:24:43] "POST / HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:24:44] "GET /pathuserdata HTTP/1.1" 200 -
+INFO:__main__:A value for debugging
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:25:00] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:25:00] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:25:00] "GET /static/js/main.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:25:00] "GET /static/img/pathimage.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:25:00] "GET /static/processing/sketch2.pde HTTP/1.1" 200 -
+INFO:__main__:A value for debugging
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:25:02] "POST / HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:25:02] "GET /pathuserdata HTTP/1.1" 200 -
+INFO:__main__:A value for debugging
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:25:16] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:25:16] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:25:16] "GET /static/js/main.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:25:16] "GET /static/img/pathimage.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:25:17] "GET /static/processing/sketch2.pde HTTP/1.1" 200 -
+INFO:__main__:A value for debugging
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:25:18] "POST / HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:25:18] "GET /pathuserdata HTTP/1.1" 200 -
+INFO:__main__:A value for debugging
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:26:11] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:26:11] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:26:11] "GET /static/js/main.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:26:11] "GET /static/img/pathimage.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:26:11] "GET /static/processing/sketch2.pde HTTP/1.1" 200 -
+INFO:__main__:A value for debugging
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:26:12] "POST / HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:26:12] "GET /pathuserdata HTTP/1.1" 200 -
+INFO:__main__:A value for debugging
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:26:28] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:26:28] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:26:28] "GET /static/js/main.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:26:28] "GET /static/img/pathimage.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:26:28] "GET /static/processing/sketch2.pde HTTP/1.1" 200 -
+INFO:__main__:A value for debugging
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:26:29] "POST / HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:26:29] "GET /pathuserdata HTTP/1.1" 200 -
+INFO:__main__:A value for debugging
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:26:30] "POST / HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:26:30] "GET /pathuserdata HTTP/1.1" 200 -
+INFO:__main__:A value for debugging
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:26:39] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:26:39] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:26:39] "GET /static/js/main.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:26:39] "GET /static/img/pathimage.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:26:40] "GET /static/processing/sketch2.pde HTTP/1.1" 200 -
+INFO:__main__:A value for debugging
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:26:41] "POST / HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:26:41] "GET /pathuserdata HTTP/1.1" 200 -
+INFO:__main__:A value for debugging
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:27:28] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:27:28] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:27:28] "GET /static/js/main.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:27:28] "GET /static/img/pathimage.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:27:29] "GET /static/processing/sketch2.pde HTTP/1.1" 200 -
+INFO:__main__:A value for debugging
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:27:30] "POST / HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:27:30] "GET /pathuserdata HTTP/1.1" 200 -
+INFO:__main__:A value for debugging
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:27:35] "POST / HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:27:35] "GET /pathuserdata HTTP/1.1" 200 -
+INFO:__main__:A value for debugging
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:28:48] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:28:48] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:28:48] "GET /static/js/main.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:28:48] "GET /static/img/pathimage.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:28:48] "GET /static/processing/sketch2.pde HTTP/1.1" 200 -
+INFO:__main__:A value for debugging
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:28:50] "POST / HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:28:50] "GET /pathuserdata HTTP/1.1" 200 -
+INFO:__main__:A value for debugging
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:28:52] "POST / HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:28:52] "GET /pathuserdata HTTP/1.1" 200 -
+INFO:__main__:A value for debugging
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:29:30] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:29:30] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:29:30] "GET /static/js/main.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:29:30] "GET /static/img/pathimage.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:29:31] "GET /static/processing/sketch2.pde HTTP/1.1" 200 -
+INFO:__main__:A value for debugging
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:29:32] "POST / HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:29:32] "GET /pathuserdata HTTP/1.1" 200 -
+INFO:__main__:A value for debugging
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:29:52] "POST / HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:29:52] "GET /pathuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:30:30] "GET /Form HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:30:30] "GET /static/processing/Sphere_of_Particles/Sphere_of_Particles.pde HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:30:31] "POST /Form HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:30:31] "GET /formuserdata HTTP/1.1" 200 -
+INFO:__main__:A value for debugging
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:30:36] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:30:36] "GET /static/processing/sketch2.pde HTTP/1.1" 200 -
+INFO:__main__:A value for debugging
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:30:38] "POST / HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:30:38] "GET /pathuserdata HTTP/1.1" 200 -
+INFO:__main__:A value for debugging
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:30:55] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:30:55] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:30:55] "GET /static/js/main.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:30:55] "GET /static/img/pathimage.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:30:55] "GET /static/processing/sketch2.pde HTTP/1.1" 200 -
+INFO:__main__:A value for debugging
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:30:57] "POST / HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:30:57] "GET /pathuserdata HTTP/1.1" 200 -
+INFO:__main__:A value for debugging
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:31:07] "POST / HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:31:07] "GET /pathuserdata HTTP/1.1" 200 -
+INFO:__main__:A value for debugging
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:31:07] "POST / HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:31:08] "GET /pathuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:31:09] "GET /pathuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:31:09] "GET /pathuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:31:10] "GET /pathuserdata HTTP/1.1" 200 -
+INFO:__main__:A value for debugging
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:31:40] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:31:40] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:31:40] "GET /static/js/main.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:31:40] "GET /static/img/pathimage.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:31:40] "GET /static/js/main.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:31:40] "GET /static/processing/sketch2.pde HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:31:41] "GET /Form HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:31:41] "GET /static/processing/Sphere_of_Particles/Sphere_of_Particles.pde HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:31:43] "POST /Form HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:31:43] "GET /formuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:32:02] "GET /Form HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:32:02] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:32:02] "GET /static/js/main.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:32:02] "GET /static/img/form_photo.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:32:02] "GET /static/processing/Sphere_of_Particles/Sphere_of_Particles.pde HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:32:03] "POST /Form HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:32:03] "GET /formuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:32:15] "GET /Form HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:32:15] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:32:15] "GET /static/js/main.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:32:15] "GET /static/img/form_photo.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:32:15] "GET /static/processing/Sphere_of_Particles/Sphere_of_Particles.pde HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:32:16] "POST /Form HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:32:16] "GET /formuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:32:27] "GET /Form HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:32:27] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:32:27] "GET /static/js/main.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:32:27] "GET /static/img/form_photo.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:32:27] "GET /static/processing/Sphere_of_Particles/Sphere_of_Particles.pde HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:32:28] "POST /Form HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:32:28] "GET /formuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:33:12] "GET /Form HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:33:12] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:33:12] "GET /static/js/main.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:33:12] "GET /static/img/form_photo.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:33:12] "GET /static/processing/Sphere_of_Particles/Sphere_of_Particles.pde HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:33:14] "POST /Form HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:33:14] "GET /formuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:33:19] "POST /Form HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:33:19] "GET /formuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:33:19] "POST /Form HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:33:19] "GET /formuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:33:20] "POST /Form HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:33:20] "POST /Form HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:33:20] "GET /formuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:33:20] "POST /Form HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:33:20] "POST /Form HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:33:20] "GET /formuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:33:20] "POST /Form HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:33:20] "GET /formuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:33:20] "POST /Form HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:33:21] "POST /Form HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:33:21] "GET /formuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:33:21] "POST /Form HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:33:30] "GET /Form HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:33:30] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:33:30] "GET /static/js/main.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:33:30] "GET /static/img/form_photo.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:33:30] "GET /static/processing/Sphere_of_Particles/Sphere_of_Particles.pde HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:33:32] "POST /Form HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:33:32] "GET /formuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:33:37] "GET /Form HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:33:37] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:33:37] "GET /static/js/main.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:33:37] "GET /static/img/form_photo.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:33:37] "GET /static/processing/Sphere_of_Particles/Sphere_of_Particles.pde HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:33:38] "POST /Form HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:33:39] "GET /formuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:33:46] "GET /Form HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:33:46] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:33:46] "GET /static/js/main.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:33:46] "GET /static/img/form_photo.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:33:47] "GET /static/processing/Sphere_of_Particles/Sphere_of_Particles.pde HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:33:48] "POST /Form HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:33:48] "GET /formuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:33:57] "GET /Form HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:33:57] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:33:57] "GET /static/js/main.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:33:57] "GET /static/img/form_photo.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:33:58] "GET /static/processing/Sphere_of_Particles/Sphere_of_Particles.pde HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:34:01] "GET /formuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:34:03] "GET /formuserdata HTTP/1.1" 200 -
+INFO:__main__:A value for debugging
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:34:04] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:34:04] "GET /static/processing/sketch2.pde HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:34:06] "GET /pathuserdata HTTP/1.1" 200 -
+INFO:__main__:A value for debugging
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:34:30] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:34:30] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:34:30] "GET /static/js/main.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:34:30] "GET /static/img/pathimage.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:34:30] "GET /static/processing/sketch2.pde HTTP/1.1" 200 -
+INFO:__main__:A value for debugging
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:34:32] "POST / HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:34:32] "GET /pathuserdata HTTP/1.1" 200 -
+INFO:__main__:A value for debugging
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:34:33] "POST / HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:34:33] "GET /pathuserdata HTTP/1.1" 200 -
+INFO:__main__:A value for debugging
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:34:55] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:34:55] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:34:55] "GET /static/js/main.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:34:55] "GET /static/img/pathimage.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:34:56] "GET /static/processing/sketch2.pde HTTP/1.1" 200 -
+INFO:__main__:A value for debugging
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:34:57] "POST / HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:34:57] "GET /pathuserdata HTTP/1.1" 200 -
+INFO:__main__:A value for debugging
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:34:59] "POST / HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:34:59] "GET /pathuserdata HTTP/1.1" 200 -
+INFO:__main__:A value for debugging
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:35:03] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:35:03] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:35:03] "GET /static/js/main.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:35:03] "GET /static/img/pathimage.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:35:03] "GET /static/processing/sketch2.pde HTTP/1.1" 200 -
+INFO:__main__:A value for debugging
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:35:04] "POST / HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:35:04] "GET /pathuserdata HTTP/1.1" 200 -
+INFO:__main__:A value for debugging
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:35:16] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:35:16] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:35:16] "GET /static/js/main.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:35:16] "GET /static/img/pathimage.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:35:16] "GET /static/processing/sketch2.pde HTTP/1.1" 200 -
+INFO:__main__:A value for debugging
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:35:17] "POST / HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:35:17] "GET /pathuserdata HTTP/1.1" 200 -
+INFO:__main__:A value for debugging
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:35:27] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:35:27] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:35:27] "GET /static/js/main.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:35:27] "GET /static/img/pathimage.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:35:27] "GET /static/processing/sketch2.pde HTTP/1.1" 200 -
+INFO:__main__:A value for debugging
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:35:28] "POST / HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:35:28] "GET /pathuserdata HTTP/1.1" 200 -
+INFO:__main__:A value for debugging
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:35:38] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:35:38] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:35:38] "GET /static/js/main.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:35:38] "GET /static/img/pathimage.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:35:38] "GET /static/processing/sketch2.pde HTTP/1.1" 200 -
+INFO:__main__:A value for debugging
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:35:40] "POST / HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:35:40] "GET /pathuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:35:42] "GET /pathuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:35:42] "GET /pathuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:35:43] "GET /pathuserdata HTTP/1.1" 200 -
+INFO:__main__:A value for debugging
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:35:45] "POST / HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:35:45] "GET /pathuserdata HTTP/1.1" 200 -
+INFO:__main__:A value for debugging
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:36:01] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:36:01] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:36:01] "GET /static/js/main.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:36:01] "GET /static/img/pathimage.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:36:02] "GET /static/processing/sketch2.pde HTTP/1.1" 200 -
+INFO:__main__:A value for debugging
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:36:02] "POST / HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:36:02] "GET /pathuserdata HTTP/1.1" 200 -
+INFO:__main__:A value for debugging
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:36:22] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:36:22] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:36:22] "GET /static/js/main.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:36:22] "GET /static/img/pathimage.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:36:23] "GET /static/processing/sketch2.pde HTTP/1.1" 200 -
+INFO:__main__:A value for debugging
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:36:24] "POST / HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:36:24] "GET /pathuserdata HTTP/1.1" 200 -
+INFO:__main__:A value for debugging
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:36:25] "POST / HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:36:25] "GET /pathuserdata HTTP/1.1" 200 -
+INFO:__main__:A value for debugging
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:36:30] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:36:30] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:36:30] "GET /static/js/main.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:36:30] "GET /static/img/pathimage.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:36:30] "GET /static/processing/sketch2.pde HTTP/1.1" 200 -
+INFO:__main__:A value for debugging
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:36:31] "POST / HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:36:31] "GET /pathuserdata HTTP/1.1" 200 -
+INFO:__main__:A value for debugging
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:36:39] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:36:39] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:36:39] "GET /static/js/main.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:36:39] "GET /static/img/pathimage.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:36:40] "GET /static/processing/sketch2.pde HTTP/1.1" 200 -
+INFO:__main__:A value for debugging
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:36:40] "POST / HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:36:41] "GET /pathuserdata HTTP/1.1" 200 -
+INFO:__main__:A value for debugging
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:36:51] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:36:51] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:36:51] "GET /static/js/main.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:36:51] "GET /static/img/pathimage.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:36:51] "GET /static/processing/sketch2.pde HTTP/1.1" 200 -
+INFO:__main__:A value for debugging
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:36:52] "POST / HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:36:52] "GET /pathuserdata HTTP/1.1" 200 -
+INFO:__main__:A value for debugging
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:36:53] "POST / HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:36:53] "GET /pathuserdata HTTP/1.1" 200 -
+INFO:__main__:A value for debugging
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:36:57] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:36:57] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:36:57] "GET /static/js/main.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:36:57] "GET /static/img/pathimage.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:36:57] "GET /static/processing/sketch2.pde HTTP/1.1" 200 -
+INFO:__main__:A value for debugging
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:36:58] "POST / HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:36:58] "GET /pathuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:37:05] "GET /Form HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:37:05] "GET /static/processing/Sphere_of_Particles/Sphere_of_Particles.pde HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:37:06] "POST /Form HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:37:07] "GET /formuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:37:11] "POST /Form HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:37:12] "GET /formuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:37:23] "GET /formuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:37:23] "GET /formuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:37:24] "GET /formuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:37:26] "GET /formuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:37:30] "POST /Form HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:37:30] "GET /formuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:37:31] "POST /Form HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:37:31] "GET /formuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:37:31] "POST /Form HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:37:31] "GET /formuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:37:31] "POST /Form HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:37:46] "GET /formuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:37:59] "GET /formuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:38:00] "GET /formuserdata HTTP/1.1" 200 -

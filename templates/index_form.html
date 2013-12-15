@@ -44,7 +44,7 @@ body{
 }
 
 #gallery_content{
-	background-color: white;
+	background-color: black;
 
 
 }
@@ -53,7 +53,7 @@ body{
 }
 #loaded_data{
 	opacity: 1.0;
-	color: black;
+	color: white;
 }
 
 </style>
@@ -69,27 +69,27 @@ $(document).ready(function(){
 
 
 
-		$('#toPhysical').mouseover(function(){
-			$(this).css('background-color','#A5A5A5');
-		})
+	$('#toPhysical').mouseover(function(){
+		$(this).css('background-color','#A5A5A5');
+	})
 
-		$('#toPhysical').mouseleave(function(){
-			$(this).css('background-color','white');
-		})
+	$('#toPhysical').mouseleave(function(){
+		$(this).css('background-color','white');
+	})
 
-		
-		
-		
 
-		$('#toPhysical').click(function(){
-			
-			
-			$('#mySketch').toggle(600);
-			$( "#formimage" ).toggle(600);
-			$("#submit").toggle();
-			
-			
-		})
+
+
+
+	$('#toPhysical').click(function(){
+
+
+		$('#mySketch').toggle(600);
+		$( "#formimage" ).toggle(600);
+		$("#submit").toggle();
+
+
+	})
 
 
 
@@ -116,25 +116,25 @@ $(document).ready(function(){
 		$('#gallery_content').toggle();
 	});
 
-$("#submit").click(function(){
+	$("#submit").click(function(){
 
-	var pjs = Processing.getInstanceById('mySketch');
-	var submission_data  = pjs.get_a();
-
-
-	$.post("/Form", 
-		{"value": submission_data},
-		console.log(submission_data),"json"
-		);
+		var pjs = Processing.getInstanceById('mySketch');
+		var submission_data  = pjs.get_a();
 
 
-			jQuery.ajax({
+		$.post("/Form", 
+			{"value": submission_data},
+			console.log("posted!"),"json"
+			);
+
+
+		jQuery.ajax({
 			url : '/formuserdata',
 			type: 'GET',
 
 			success : function(data) {
 				console.log("SUCCESS!");
-				console.log(data);
+				console.log("Got!");
 				jQuery("#loaded_data").html(data);
 			},
 
@@ -149,22 +149,16 @@ $("#submit").click(function(){
 
 
 
-});
+	});
 
 
 
 
 })
 </script>
-
-
-
-
 {% endblock %}
-
-
 {% block bgmusic %}
-<audio autoplay="true" loop><source src="static/music/03a.mp3" type="audio/mpeg"/></audio>
+<!-- <audio autoplay="true" loop><source src="static/music/03a.mp3" type="audio/mpeg"/></audio> -->
 {% endblock %}
 
 
@@ -182,7 +176,7 @@ $("#submit").click(function(){
 
 {% block toreport %}
 
-	<button id="gallery" href="/formuserdata">GALLERY</button>
+<button id="gallery" href="/formuserdata">GALLERY</button>
 
 {% endblock %}
 
@@ -192,7 +186,7 @@ $("#submit").click(function(){
 <div>
 	<canvas class="myCanvas"  id="mySketch" data-processing-sources="/static/processing/Sphere_of_Particles/Sphere_of_Particles.pde"></canvas>
 </div>
-<p id="submit">SUBMIT MY VERSION OF BALANCE</p>
+<button id="submit">SUBMIT MY VERSION OF BALANCE</button>
 
 
 <div id="gallery_content">

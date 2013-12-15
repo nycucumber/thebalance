@@ -1,23 +1,27 @@
 # This Python file uses the following encoding: utf-8
 
-import os, datetime, re, random, requests, models
+import os, datetime, re, random, requests
 from flask import Flask, jsonify, request, render_template, redirect, abort, url_for, send_from_directory # Retrieve Flask, our framework
 from unidecode import unidecode
 from werkzeug import secure_filename
 from flask.ext.mongoengine import MongoEngine
-from mongoengine import *
-import requests
+# from mongoengine import *
+
 # import data models
 import models
 # AWS library
 import boto
 #python image library
 import StringIO
-
-
+import logging
 
 
 app = Flask(__name__)   # create our flask app
+
+app.secret_key = os.environ.get('SECRET_KEY') # put SECRET_KEY variable inside .env file with a random string of alphanumeric characters
+app.config['CSRF_ENABLED'] = False
+app.config['MAX_CONTENT_LENGTH'] = 16 * 1024 * 1024 # 16 megabyte file upload
+
 
 # --------- Database Connection ---------
 # MongoDB connection to MongoLab's database
@@ -28,22 +32,37 @@ app.debug = True
 
 
 
+logging.basicConfig(filename='thebalance.log',level=logging.DEBUG)
 
-# # upload file section
-# ALLOWED_EXTENSIONS = set(['png','jpg','jpeg','git'])
+
+
+# # --------- Database Connection ---------
+# # MongoDB connection to MongoLab's database
+# mongoengine.connect('mydata', host=os.environ.get('MONGOLAB_URI'))
+# app.logger.debug("Connecting to MongoLabs")
+
+
+
+
 
 # def allowed_file(filename):
 # 	return '.' in filename and \
 # 		filename.lower().rsplit('.',1)[1] in ALLOWED_EXTENSIONS
+
 # @app.route("/uploadfile",methods=['GET','POST'])
 # def upload():
+
+
+# 	# get Idea form from models.py
+# 	# photo_upload_form = models.photo_upload_form(request.form)
+
+
 # 	if request.method == "POST":
-# 		uploaded_file = request.files['fileupload']
+# 		uploaded_file = request.form.get('file')
 
-# 		if uploaded_file and allowed_file(uploaded_file.filename):
+# 		if uploaded_file:
 # 			now = datatime.datatime.now()
-# 			filename = now.strftime('%Y%m%d%H%M%s') + "-" + secure_filename(uploaded_file.filename)
-
+# 			filename = now.strftime('%Y%m%d%H%M%s') + "-" + secure_filename(uploaded_file.filename) + ".png"
 # 			s3conn = boto.connect_s3(os.environ.get('AKIAJQUKNHDWRE54E7YQ'),os.environ.get('koqewygr3wZh0hZ+Aw1sLXoTobIDyUDCtqQ6zKkV'))
 
 # 			# open s3 bucket, create new Key/file
@@ -88,8 +107,6 @@ app.debug = True
 
 
 
-
-
 @app.route("/", methods=['GET','POST'])
 def index():
 	app.logger.info('A value for debugging')
@@ -98,6 +115,7 @@ def index():
 		
 		new_data = models.PathBalanceReport()
 		new_data.PbalancedPoint = request.form.get('value','')
+
 		new_data.save()
 	else:
 
@@ -123,34 +141,66 @@ def sketch2():
 		return render_template("index_form.html",**templateData)
 
 
-@app.route("/path3d")
-def path3d():
-	return render_template("path3d.html")
+# @app.route("/path3d")
+# def path3d():
+# 	return render_template("path3d.html")
 
-@app.route("/form3d")
-def form3d():
-	return render_template("form3d.html")
+# @app.route("/form3d")
+# def form3d():
+# 	return render_template("form3d.html")
 
 @app.route("/pathuserdata")
 def pathuserdata():
 
+	
+	Paverage = 0.0
+	theSum = 0.0
+	
+	for i in models.PathBalanceReport.objects():
+		theSum = float(i.PbalancedPoint)+ theSum
+
+	Paverage = theSum / len(models.PathBalanceReport.objects())
 
 	templateData = {
 	'userdata': models.PathBalanceReport.objects(),
+	'average':Paverage,
 	}
+
 	return render_template('path_userdata.html',**templateData)
 
 
 
 @app.route("/formuserdata")
 def formuserdata():
+    
 
+	Faverage = 0.0
+	theSum = 0.0
+	
+	for i in models.FormBalanceReport.objects():
+		theSum = float(i.FbalancedPoint)+ theSum
+
+	Faverage = theSum / len(models.FormBalanceReport.objects())
 
 
 	templateData = {
 	'userdata': models.FormBalanceReport.objects(),
+	'average':Faverage,
 	}
+	
 	return render_template('form_userdata.html',**templateData)
+
+
+
+
+@app.route("/test")
+def test():
+
+
+
+	
+	return render_template('test.html')
+
 
 
 

@@ -103,18 +103,22 @@ a:hover {
 }
 
 #gallery_content{
+
 	position: fixed;
 	background-color: black;
-	top: 20%;
-	left: 10%;
+	bottom: 10%;
+	margin: 0px;
+	padding: 0px;
+	left: 30%;
 	text-align: center;
-	opacity: 0.5;
+	opacity: 0.8;
 	width: 500px;
-	height: 500px;
+	height: auto;
 
 }
 
 #loaded_data{
+
 	display: inline-block;
 	opacity: 1.0;
 	color: white;
@@ -146,6 +150,15 @@ a:hover {
 	display:none;
 }
 
+#all_data {
+	font-size: 8px;
+}
+
+.gallery_in_title {
+
+	font-size: 25px;
+
+}
 /*FOOTER*/
 
 .footer {
