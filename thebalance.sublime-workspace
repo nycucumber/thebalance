@@ -1,0 +1,933 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"uplo",
+				"uploaded_file"
+			],
+			[
+				"meth",
+				"method"
+			],
+			[
+				"all",
+				"ALLOWED_EXTENSIONS"
+			],
+			[
+				"a",
+				"ajax"
+			],
+			[
+				"m",
+				"myCanvas"
+			],
+			[
+				"my",
+				"mySketch"
+			],
+			[
+				"show",
+				"showCanvas"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"path",
+				"pathimage"
+			],
+			[
+				"h",
+				"h1	Tag"
+			],
+			[
+				"to",
+				"toPhysical"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"font",
+				"font"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"gall",
+				"gallery_content"
+			],
+			[
+				"pad",
+				"padding-bottom"
+			],
+			[
+				"bo",
+				"border-radius"
+			],
+			[
+				"gal",
+				"gallery_content"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"padd",
+				"padding-left"
+			],
+			[
+				"tet",
+				"text-align"
+			],
+			[
+				"web",
+				"webpage_height"
+			],
+			[
+				"sphere",
+				"sphere_volume"
+			],
+			[
+				"page",
+				"page_height"
+			],
+			[
+				"particle",
+				"particle_amount"
+			],
+			[
+				"sketch",
+				"sketch2"
+			],
+			[
+				"no",
+				"nowrap"
+			],
+			[
+				"co",
+				"color"
+			],
+			[
+				"mi",
+				"min-width"
+			],
+			[
+				"marg",
+				"margin-left"
+			],
+			[
+				"sh",
+				"show_cat_list"
+			],
+			[
+				"pro",
+				"projects_list"
+			],
+			[
+				"ca",
+				"cat_list"
+			],
+			[
+				"re",
+				"render_template"
+			],
+			[
+				"col",
+				"col_content"
+			],
+			[
+				"paddi",
+				"padding-top"
+			],
+			[
+				"rede",
+				"render_template"
+			],
+			[
+				"moue",
+				"mouseX"
+			],
+			[
+				"mouse",
+				"mouseX"
+			],
+			[
+				"file",
+				"filename"
+			],
+			[
+				"dt",
+				"dataset_size"
+			],
+			[
+				"data",
+				"dataset_size"
+			],
+			[
+				"method",
+				"methods"
+			],
+			[
+				"this",
+				"this_emoticon"
+			],
+			[
+				"size",
+				"font-size"
+			],
+			[
+				"p",
+				"p	Tag"
+			],
+			[
+				"you",
+				"your_emoticons"
+			],
+			[
+				"pa",
+				"padding-top"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "templates/test.html",
+			"settings":
+			{
+				"buffer_size": 2201,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "templates/path3d.html",
+			"settings":
+			{
+				"buffer_size": 337,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "templates/path_userdata.html",
+			"settings":
+			{
+				"buffer_size": 721,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "templates/layout.html",
+			"settings":
+			{
+				"buffer_size": 1412,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "templates/index_path.html",
+			"settings":
+			{
+				"buffer_size": 3962,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "templates/index_form.html",
+			"settings":
+			{
+				"buffer_size": 2645,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "templates/form3d.html",
+			"settings":
+			{
+				"buffer_size": 360,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "templates/form_userdata.html",
+			"settings":
+			{
+				"buffer_size": 719,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "static/processing/Sphere_of_Particles/Sphere_of_Particles.pde",
+			"settings":
+			{
+				"buffer_size": 13185,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "static/processing/sketch2.pde",
+			"settings":
+			{
+				"buffer_size": 4594,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "static/js/main.js",
+			"settings":
+			{
+				"buffer_size": 123,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "static/css/main.css",
+			"settings":
+			{
+				"buffer_size": 1971,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "models.py",
+			"settings":
+			{
+				"buffer_size": 1127,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app.py",
+			"settings":
+			{
+				"buffer_size": 5196,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+		],
+		"width": 575.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/yang/Documents/midterm -Junnan Liao/untitled folder/templates/TWO.html",
+		"/Users/yang/Documents/midterm -Junnan Liao/untitled folder/templates/THREE.html",
+		"/Users/yang/Documents/midterm -Junnan Liao/untitled folder/templates/FOUR.html",
+		"/Users/yang/Documents/midterm -Junnan Liao/untitled folder/templates/FIVE.html",
+		"/Users/yang/Documents/midterm -Junnan Liao/untitled folder/app.py",
+		"/Users/yang/Documents/midterm -Junnan Liao/untitled folder/templates/ONE.html",
+		"/Users/yang/Documents/midterm -Junnan Liao/untitled folder/templates/2.html",
+		"/Users/yang/Downloads/itp-dwd-flask-s3-upload-master/models.py",
+		"/Users/yang/Downloads/itp-dwd-flask-s3-upload-master/templates/main.html",
+		"/Users/yang/Downloads/itp-dwd-flask-s3-upload-master/app.py",
+		"/Users/yang/Downloads/itp-dwd-flask-s3-upload-master/static/js/main.js",
+		"/Users/yang/Downloads/itp-dwd-flask-s3-upload-master/templates/test.html",
+		"/Users/yang/Downloads/itp-dwd-flask-s3-upload-master/templates/layout/main.html",
+		"/Users/yang/Desktop/image.png",
+		"/Users/yang/Documents/Project_Balance_website/templates/test.html",
+		"/Users/yang/Documents/Project_Balance_website/templates/path3d.html",
+		"/Users/yang/Documents/Project_Balance_website/templates/form3d.html",
+		"/Users/yang/Documents/Project_Balance_website/templates/userdata.html",
+		"/Users/yang/Documents/Project_Balance_website/templates/layout.html",
+		"/Users/yang/Documents/Project_Balance_website/templates/index_path.html",
+		"/Users/yang/Documents/Project_Balance_website/models.py",
+		"/Users/yang/Documents/Project_Balance_website/static/processing/Sphere_of_Particles/Sphere_of_Particles.pde",
+		"/Users/yang/Documents/Project_Balance_website/static/processing/sketch2.pde",
+		"/Users/yang/Documents/Project_Balance_website/static/css/main.css",
+		"/Users/yang/Google Drive/Project_Balance/templates/index.html",
+		"/Applications/Processing.app/Contents/Java/modes/java/reference/PVector.html",
+		"/Users/yang/Documents/ITP-Parametric-sketches/libraries/modelbuildermk2/doc-modelbuilderMk2/index-all.html",
+		"/Users/yang/Google Drive/parametric_website/templates/sketch2.html",
+		"/Users/yang/Google Drive/parametric_website/.gitignore",
+		"/Users/yang/Google Drive/parametric_website/templates/test.html",
+		"/Users/yang/Google Drive/parametric_website/templates/layout.html",
+		"/Users/yang/Google Drive/parametric_website/static/js/main.js",
+		"/Users/yang/Google Drive/parametric_website/models.py",
+		"/Users/yang/Google Drive/parametric_website/templates/sketch2",
+		"/Users/yang/Google Drive/parametric_website/templates/zz.html",
+		"/Users/yang/Google Drive/parametric_website/static/js/processingjs",
+		"/Users/yang/Documents/DWD/week4/models.py",
+		"/Users/yang/Documents/DWD/week4/templates/submit.html",
+		"/Users/yang/Documents/DWD/week4/templates/upload.html",
+		"/Users/yang/Documents/DWD/week4/app.py",
+		"/Applications/Processing.app/Contents/Resources/Java/modes/java/reference/frameRate_.html",
+		"/Users/yang/Downloads/occam-krt16o/flash-all.sh",
+		"/Users/yang/Documents/The-Nature-of-Code-Examples-master/Processing/chp6_agents/NOC_6_09_Flocking/web-export/index.html",
+		"/Users/yang/Desktop/untitled.java",
+		"/Users/yang/Google Drive/parametric_website/templates/index.html",
+		"/Users/yang/Desktop/untitled.pde",
+		"/Users/yang/Google Drive/parametric_website/templates/bootstraptest.html",
+		"/Users/yang/Google Drive/parametric_website/templates/bootstraptest",
+		"/Users/yang/Documents/DWD/week4/templates/request.html",
+		"/Users/yang/Documents/DWD/week 8/json_to_python.py",
+		"/Users/yang/Documents/DWD/week 8/pythonToJson.py",
+		"/Users/yang/Documents/Android Development/nycHappiness/assets/www/css/index.css",
+		"/Users/yang/Documents/Android Development/nycHappiness/assets/www/index.html",
+		"/Users/yang/Documents/DWD/week5/models.pyc",
+		"/Users/yang/Documents/DWD/week4/templates/secret.html",
+		"/Users/yang/Documents/DWD/week5/templates/main.html",
+		"/Users/yang/Documents/DWD/week4/templates/404.html",
+		"/Users/yang/Documents/DWD/week5/app.py",
+		"/Users/yang/Documents/DWD/week5/templates/secret.html",
+		"/Users/yang/Documents/DWD/week4/models.pyc",
+		"/Users/yang/Documents/DWD/week5/models.py",
+		"/Users/yang/Documents/DWD/week4/templates/thanks.html",
+		"/Users/yang/Documents/DWD/week4/static/css/main.css",
+		"/Users/yang/Documents/DWD/week5/templates/404.html",
+		"/Users/yang/Documents/DWD/week4/templates/greetings.html",
+		"/Users/yang/Documents/DWD/week4/templates/greetings_layout.html",
+		"/Users/yang/Documents/Parametric_design/ITP-Parametric-sketches-20130913-2.0/libraries/modelbuilderMk2/libraries.properties",
+		"/Users/yang/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/Users/yang/Documents/DWD/week5/.gitignore",
+		"/Users/yang/Documents/Dynamic_Web_Development/week_4/static/css/main.css",
+		"/Users/yang/Documents/Dynamic_Web_Development/week_4/templates/index.html",
+		"/Users/yang/Documents/Dynamic_Web_Development/week_4/templates/greetings.html",
+		"/Users/yang/Documents/Dynamic_Web_Development/week_4/templates/greetings_layout.html",
+		"/Users/yang/Documents/Dynamic_Web_Development/week_4/templates/404.html",
+		"/Users/yang/Documents/Dynamic_Web_Development/week_4/templates/layout.html",
+		"/Users/yang/Documents/Dynamic_Web_Development/week_4/templates/404",
+		"/Users/yang/Documents/Dynamic_Web_Development/week_4/templates/main.html",
+		"/Users/yang/Documents/Dynamic_Web_Development/week_4/templates/rental_confirm.html",
+		"/Users/yang/Documents/Dynamic Web D./week 4/app.py",
+		"/Users/yang/Documents/Dynamic_Web_Development/week_4/templates/layout_simple.html",
+		"/Users/yang/Documents/Dynamic_Web_Development/week_4/templates/test.html",
+		"/Users/yang/Documents/Dynamic_Web_Development/week_4/Procfile",
+		"/Users/yang/Documents/itp-dwd-examples/index.html",
+		"/Users/yang/Documents/itp-dwd-examples/app.py",
+		"/Users/yang/Documents/itp-dwd-examples/.gitignore"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"img",
+			"request.",
+			"fileuplod",
+			"fileField",
+			"image",
+			"form_image",
+			"flip",
+			"form",
+			"path",
+			"-example-generic",
+			"myCanvas",
+			"path",
+			"page_height",
+			"page_width",
+			"webpage_width",
+			"sphere",
+			"Integer.parseInt",
+			"sphere_volume",
+			"ONE.HTML",
+			"one.html",
+			"log out",
+			"class User",
+			"class user",
+			"user",
+			"sphereMaterial",
+			"spark1",
+			"spark",
+			"Idea",
+			"emoticons_database",
+			"idea",
+			"dwdfall2013",
+			"push"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": true,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 13,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "templates/test.html",
+					"settings":
+					{
+						"buffer_size": 2201,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "templates/path3d.html",
+					"settings":
+					{
+						"buffer_size": 337,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "templates/path_userdata.html",
+					"settings":
+					{
+						"buffer_size": 721,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "templates/layout.html",
+					"settings":
+					{
+						"buffer_size": 1412,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "templates/index_path.html",
+					"settings":
+					{
+						"buffer_size": 3962,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "templates/index_form.html",
+					"settings":
+					{
+						"buffer_size": 2645,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "templates/form3d.html",
+					"settings":
+					{
+						"buffer_size": 360,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "templates/form_userdata.html",
+					"settings":
+					{
+						"buffer_size": 719,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "static/processing/Sphere_of_Particles/Sphere_of_Particles.pde",
+					"settings":
+					{
+						"buffer_size": 13185,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "static/processing/sketch2.pde",
+					"settings":
+					{
+						"buffer_size": 4594,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "static/js/main.js",
+					"settings":
+					{
+						"buffer_size": 123,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "static/css/main.css",
+					"settings":
+					{
+						"buffer_size": 1971,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "models.py",
+					"settings":
+					{
+						"buffer_size": 1127,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "app.py",
+					"settings":
+					{
+						"buffer_size": 5196,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true
+}

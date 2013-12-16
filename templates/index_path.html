@@ -79,8 +79,10 @@
 		$('#toPhysical').click(function(){
 			
 			
-			$('#mySketch').toggle(400);
+			$('#mySketch').toggle();
 			$( "#pathimage" ).toggle();
+			$("#submit").toggle();
+			$('#gallery').toggle();
 			
 		})
 
@@ -197,7 +199,7 @@
 
 
 {% block bgmusic %}
-<!-- <audio autoplay="true" loop><source src="static/music/bg.mp3" type="audio/mpeg" /></audio> -->
+<audio autoplay="true" loop><source src="static/music/bg.mp3" type="audio/mpeg" /></audio>
 {% endblock %}
 
 
@@ -219,7 +221,7 @@
 	<div class="title">
 
 
-		
+
 		<p class="logo">BALANCE</p>
 
 
@@ -233,9 +235,7 @@
 
 		</div>
 		<!-- <p id="logo_subtitle"> BY <a href="http://yangwangphilo.com">Yang Wang</a> AND <a href="http://zhenzhenqi.info/">Zhenzhen Qi</a> </p> -->
-	</div>
-
-
+		</div>
 	{% block toreport %}
 
 	<button id="gallery">GALLERY</button>

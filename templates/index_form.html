@@ -67,8 +67,6 @@ $(document).ready(function(){
 
 	$('#gallery_content').hide();
 
-
-
 	$('#toPhysical').mouseover(function(){
 		$(this).css('background-color','#A5A5A5');
 	})
@@ -78,17 +76,11 @@ $(document).ready(function(){
 	})
 
 
-
-
-
 	$('#toPhysical').click(function(){
-
-
-		$('#mySketch').toggle(600);
-		$( "#formimage" ).toggle(600);
+		$('#mySketch').toggle();
+		$( "#formimage" ).toggle();
 		$("#submit").toggle();
-
-
+		$('#gallery').toggle();
 	})
 
 
@@ -158,7 +150,7 @@ $(document).ready(function(){
 </script>
 {% endblock %}
 {% block bgmusic %}
-<!-- <audio autoplay="true" loop><source src="static/music/03a.mp3" type="audio/mpeg"/></audio> -->
+	<audio autoplay="true" loop><source src="static/music/03a.mp3" type="audio/mpeg"/></audio>
 {% endblock %}
 
 

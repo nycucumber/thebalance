@@ -1170,3 +1170,810 @@ INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:37:31] "POST /Form HTTP/1.1" 500 -
 INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:37:46] "GET /formuserdata HTTP/1.1" 200 -
 INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:37:59] "GET /formuserdata HTTP/1.1" 200 -
 INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 02:38:00] "GET /formuserdata HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/
+INFO:werkzeug: * Restarting with reloader
+INFO:__main__:A value for debugging
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 10:27:13] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 10:27:14] "GET /static/processing/sketch2.pde HTTP/1.1" 200 -
+INFO:__main__:A value for debugging
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 10:27:16] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 10:27:16] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 10:27:16] "GET /static/js/main.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 10:27:16] "GET /static/img/pathimage.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 10:27:16] "GET /static/js/main.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 10:27:16] "GET /static/processing/sketch2.pde HTTP/1.1" 200 -
+INFO:__main__:A value for debugging
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 10:27:26] "POST / HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 10:27:26] "GET /pathuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 10:27:30] "GET /pathuserdata HTTP/1.1" 200 -
+INFO:__main__:A value for debugging
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 10:27:44] "POST / HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 10:27:44] "GET /pathuserdata HTTP/1.1" 200 -
+INFO:__main__:A value for debugging
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 10:27:45] "POST / HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 10:27:45] "GET /pathuserdata HTTP/1.1" 200 -
+INFO:__main__:A value for debugging
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 10:27:48] "POST / HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 10:27:48] "GET /pathuserdata HTTP/1.1" 200 -
+INFO:__main__:A value for debugging
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 10:29:56] "POST / HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 10:29:56] "GET /pathuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 10:29:57] "GET /pathuserdata HTTP/1.1" 200 -
+INFO:__main__:A value for debugging
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 10:31:48] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 10:31:48] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 10:31:48] "GET /static/js/main.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 10:31:48] "GET /static/img/pathimage.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 10:31:49] "GET /static/processing/sketch2.pde HTTP/1.1" 200 -
+INFO:__main__:A value for debugging
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 10:31:53] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 10:31:53] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 10:31:53] "GET /static/js/main.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 10:31:53] "GET /static/img/pathimage.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 10:31:54] "GET /static/processing/sketch2.pde HTTP/1.1" 200 -
+INFO:__main__:A value for debugging
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 10:31:54] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 10:31:55] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 10:31:55] "GET /static/js/main.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 10:31:55] "GET /static/img/pathimage.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 10:31:55] "GET /static/processing/sketch2.pde HTTP/1.1" 200 -
+INFO:__main__:A value for debugging
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 10:31:58] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 10:31:58] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 10:31:58] "GET /static/js/main.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 10:31:58] "GET /static/img/pathimage.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 10:31:58] "GET /static/processing/sketch2.pde HTTP/1.1" 200 -
+INFO:__main__:A value for debugging
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 10:32:15] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 10:32:15] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 10:32:15] "GET /static/js/main.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 10:32:15] "GET /static/img/pathimage.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 10:32:15] "GET /static/processing/sketch2.pde HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 10:32:22] "GET /Form HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 10:32:22] "GET /static/processing/Sphere_of_Particles/Sphere_of_Particles.pde HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 10:32:22] "GET /static/music/03a.mp3 HTTP/1.1" 304 -
+INFO:__main__:A value for debugging
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 10:32:27] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 10:32:27] "GET /static/processing/sketch2.pde HTTP/1.1" 200 -
+INFO:__main__:A value for debugging
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 10:32:37] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 10:32:37] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 10:32:37] "GET /static/js/main.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 10:32:37] "GET /static/img/pathimage.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 10:32:37] "GET /static/processing/sketch2.pde HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 10:32:37] "GET /static/music/bg.mp3 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 10:32:56] "GET /Form HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 10:32:56] "GET /static/processing/Sphere_of_Particles/Sphere_of_Particles.pde HTTP/1.1" 200 -
+INFO:__main__:A value for debugging
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 10:33:34] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 10:33:34] "GET /static/processing/sketch2.pde HTTP/1.1" 200 -
+INFO:__main__:A value for debugging
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 10:34:57] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 10:34:57] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 10:34:57] "GET /static/js/main.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 10:34:57] "GET /static/img/pathimage.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 10:34:57] "GET /static/processing/sketch2.pde HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 10:34:58] "GET /static/music/bg.mp3 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 10:35:02] "GET /Form HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 10:35:02] "GET /static/processing/Sphere_of_Particles/Sphere_of_Particles.pde HTTP/1.1" 200 -
+INFO:__main__:A value for debugging
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 10:38:19] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 10:38:19] "GET /static/processing/sketch2.pde HTTP/1.1" 200 -
+INFO:__main__:A value for debugging
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 13:50:29] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 13:50:29] "GET /static/processing/sketch2.pde HTTP/1.1" 200 -
+INFO:__main__:A value for debugging
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 13:50:44] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 13:50:44] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 13:50:44] "GET /static/js/main.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 13:50:44] "GET /static/img/pathimage.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 13:50:45] "GET /static/processing/sketch2.pde HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 13:50:45] "GET /static/music/bg.mp3 HTTP/1.1" 304 -
+INFO:__main__:A value for debugging
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 13:50:49] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 13:50:49] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 13:50:49] "GET /static/js/main.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 13:50:49] "GET /static/img/pathimage.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 13:50:49] "GET /static/processing/sketch2.pde HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 13:50:49] "GET /static/music/bg.mp3 HTTP/1.1" 304 -
+INFO:__main__:A value for debugging
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 13:50:51] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 13:50:51] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 13:50:51] "GET /static/js/main.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 13:50:51] "GET /static/img/pathimage.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 13:50:51] "GET /static/processing/sketch2.pde HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 13:50:51] "GET /static/music/bg.mp3 HTTP/1.1" 304 -
+INFO:__main__:A value for debugging
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 13:50:53] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 13:50:53] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 13:50:53] "GET /static/js/main.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 13:50:53] "GET /static/img/pathimage.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 13:50:53] "GET /static/processing/sketch2.pde HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 13:50:53] "GET /static/music/bg.mp3 HTTP/1.1" 304 -
+INFO:__main__:A value for debugging
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 13:54:39] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 13:54:39] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 13:54:39] "GET /static/js/main.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 13:54:39] "GET /static/img/pathimage.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 13:54:39] "GET /static/processing/sketch2.pde HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 13:54:39] "GET /static/music/bg.mp3 HTTP/1.1" 304 -
+INFO:__main__:A value for debugging
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 13:58:48] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 13:58:48] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 13:58:48] "GET /static/js/main.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 13:58:48] "GET /static/img/pathimage.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 13:58:49] "GET /static/processing/sketch2.pde HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 13:58:49] "GET /static/music/bg.mp3 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 13:58:53] "GET /Form HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 13:58:53] "GET /static/processing/Sphere_of_Particles/Sphere_of_Particles.pde HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 14:05:30] "POST /Form HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 14:05:30] "GET /formuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 14:05:30] "POST /Form HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 14:05:30] "POST /Form HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 14:06:14] "GET /formuserdata HTTP/1.1" 200 -
+INFO:__main__:A value for debugging
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 14:08:22] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 14:08:22] "GET /static/processing/sketch2.pde HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 14:09:30] "GET /Form HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 14:09:30] "GET /static/processing/Sphere_of_Particles/Sphere_of_Particles.pde HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 14:14:59] "POST /Form HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 14:14:59] "GET /formuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 14:15:09] "GET /formuserdata HTTP/1.1" 200 -
+INFO:__main__:A value for debugging
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 14:17:56] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 14:17:56] "GET /static/processing/sketch2.pde HTTP/1.1" 200 -
+INFO:__main__:A value for debugging
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 14:18:12] "POST / HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 14:18:12] "GET /pathuserdata HTTP/1.1" 200 -
+INFO:__main__:A value for debugging
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 14:18:19] "POST / HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 14:18:20] "GET /pathuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 14:18:31] "GET /pathuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 14:20:05] "GET /Form HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 14:20:05] "GET /static/processing/Sphere_of_Particles/Sphere_of_Particles.pde HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 14:22:09] "POST /Form HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 14:22:09] "GET /formuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 14:22:10] "GET /formuserdata HTTP/1.1" 200 -
+INFO:__main__:A value for debugging
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 14:22:21] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 14:22:21] "GET /static/processing/sketch2.pde HTTP/1.1" 200 -
+INFO:__main__:A value for debugging
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 14:23:08] "POST / HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 14:23:08] "GET /pathuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 14:23:13] "GET /pathuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 14:23:21] "GET /Form HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 14:23:21] "GET /static/processing/Sphere_of_Particles/Sphere_of_Particles.pde HTTP/1.1" 200 -
+INFO:__main__:A value for debugging
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 14:26:18] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 14:26:18] "GET /static/processing/sketch2.pde HTTP/1.1" 200 -
+INFO:__main__:A value for debugging
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 14:26:32] "POST / HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 14:26:32] "GET /pathuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 14:26:34] "GET /pathuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 14:26:53] "GET /Form HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 14:26:53] "GET /static/processing/Sphere_of_Particles/Sphere_of_Particles.pde HTTP/1.1" 200 -
+INFO:__main__:A value for debugging
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 14:27:28] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 14:27:28] "GET /static/processing/sketch2.pde HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 14:29:23] "GET /Form HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 14:29:23] "GET /static/processing/Sphere_of_Particles/Sphere_of_Particles.pde HTTP/1.1" 200 -
+INFO:__main__:A value for debugging
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 14:30:49] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 14:30:49] "GET /static/processing/sketch2.pde HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 14:34:45] "GET /Form HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 14:34:45] "GET /static/img/form_photo.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 14:34:45] "GET /static/processing/Sphere_of_Particles/Sphere_of_Particles.pde HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 14:36:10] "POST /Form HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 14:36:10] "GET /formuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 14:36:39] "GET /formuserdata HTTP/1.1" 200 -
+INFO:__main__:A value for debugging
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 14:37:49] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 14:37:49] "GET /static/processing/sketch2.pde HTTP/1.1" 200 -
+INFO:__main__:A value for debugging
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 14:40:41] "POST / HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 14:40:41] "GET /pathuserdata HTTP/1.1" 200 -
+INFO:__main__:A value for debugging
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 14:40:42] "POST / HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 14:40:42] "GET /pathuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 14:40:43] "GET /pathuserdata HTTP/1.1" 200 -
+INFO:__main__:A value for debugging
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 14:41:16] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 14:41:16] "GET /static/processing/sketch2.pde HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 14:41:18] "GET /Form HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 14:41:18] "GET /static/processing/Sphere_of_Particles/Sphere_of_Particles.pde HTTP/1.1" 200 -
+INFO:__main__:A value for debugging
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 14:41:20] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 14:41:20] "GET /static/processing/sketch2.pde HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 14:42:36] "GET /Form HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 14:42:36] "GET /static/processing/Sphere_of_Particles/Sphere_of_Particles.pde HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 14:46:43] "POST /Form HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 14:46:43] "GET /formuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 14:47:26] "POST /Form HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 14:47:26] "GET /formuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 14:47:32] "POST /Form HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 14:47:32] "GET /formuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 14:47:34] "POST /Form HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 14:47:34] "GET /formuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 14:47:36] "POST /Form HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 14:47:36] "GET /formuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 14:47:48] "GET /formuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 14:48:22] "POST /Form HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 14:48:22] "GET /formuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 14:48:26] "GET /formuserdata HTTP/1.1" 200 -
+INFO:__main__:A value for debugging
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 14:49:54] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 14:49:54] "GET /static/processing/sketch2.pde HTTP/1.1" 200 -
+INFO:__main__:A value for debugging
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 14:49:54] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 14:49:54] "GET /static/processing/sketch2.pde HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 14:53:33] "GET /Form HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 14:53:34] "GET /static/processing/Sphere_of_Particles/Sphere_of_Particles.pde HTTP/1.1" 200 -
+INFO:__main__:A value for debugging
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 14:59:04] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 14:59:04] "GET /static/processing/sketch2.pde HTTP/1.1" 200 -
+INFO:__main__:A value for debugging
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 15:00:07] "POST / HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 15:00:07] "GET /pathuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 15:00:15] "GET /pathuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 15:01:21] "GET /Form HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 15:01:21] "GET /static/processing/Sphere_of_Particles/Sphere_of_Particles.pde HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 15:01:34] "POST /Form HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 15:01:34] "GET /formuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 15:01:50] "GET /formuserdata HTTP/1.1" 200 -
+INFO:__main__:A value for debugging
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 15:02:05] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 15:02:05] "GET /static/processing/sketch2.pde HTTP/1.1" 200 -
+INFO:__main__:A value for debugging
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 15:03:00] "POST / HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 15:03:00] "GET /pathuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 15:03:22] "GET /pathuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 15:03:29] "GET /pathuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 15:03:31] "GET /pathuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 15:04:29] "GET /Form HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 15:04:29] "GET /static/processing/Sphere_of_Particles/Sphere_of_Particles.pde HTTP/1.1" 200 -
+INFO:__main__:A value for debugging
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 15:09:28] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 15:09:28] "GET /static/processing/sketch2.pde HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 15:13:27] "GET /Form HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 15:13:27] "GET /static/processing/Sphere_of_Particles/Sphere_of_Particles.pde HTTP/1.1" 200 -
+INFO:__main__:A value for debugging
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 15:19:30] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 15:19:30] "GET /static/processing/sketch2.pde HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 15:21:08] "GET /Form HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 15:21:08] "GET /static/processing/Sphere_of_Particles/Sphere_of_Particles.pde HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 15:23:15] "GET /formuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 15:23:22] "POST /Form HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 15:23:22] "GET /formuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 15:23:57] "GET /formuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 15:29:43] "POST /Form HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 15:29:43] "GET /formuserdata HTTP/1.1" 200 -
+INFO:__main__:A value for debugging
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 15:30:06] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 15:30:06] "GET /static/processing/sketch2.pde HTTP/1.1" 200 -
+INFO:__main__:A value for debugging
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 15:30:32] "POST / HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 15:30:32] "GET /pathuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 15:30:58] "GET /pathuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 15:33:42] "GET /Form HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 15:33:42] "GET /static/processing/Sphere_of_Particles/Sphere_of_Particles.pde HTTP/1.1" 200 -
+INFO:__main__:A value for debugging
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 15:36:42] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 15:36:42] "GET /static/processing/sketch2.pde HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 15:36:49] "GET /Form HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 15:36:49] "GET /static/processing/Sphere_of_Particles/Sphere_of_Particles.pde HTTP/1.1" 200 -
+INFO:__main__:A value for debugging
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 15:36:51] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 15:36:52] "GET /static/processing/sketch2.pde HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 15:37:00] "GET /Form HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 15:37:01] "GET /static/processing/Sphere_of_Particles/Sphere_of_Particles.pde HTTP/1.1" 200 -
+INFO:__main__:A value for debugging
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 15:37:02] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 15:37:02] "GET /static/processing/sketch2.pde HTTP/1.1" 200 -
+INFO:__main__:A value for debugging
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 15:38:26] "POST / HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 15:38:27] "GET /pathuserdata HTTP/1.1" 200 -
+INFO:__main__:A value for debugging
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 15:38:27] "POST / HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 15:38:27] "GET /pathuserdata HTTP/1.1" 200 -
+INFO:__main__:A value for debugging
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 15:38:32] "POST / HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 15:38:32] "GET /pathuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 15:38:32] "GET /pathuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 15:38:43] "GET /Form HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 15:38:43] "GET /static/processing/Sphere_of_Particles/Sphere_of_Particles.pde HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 15:42:30] "GET /formuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 15:42:32] "GET /formuserdata HTTP/1.1" 200 -
+INFO:__main__:A value for debugging
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 15:43:16] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 15:43:16] "GET /static/processing/sketch2.pde HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 15:44:22] "GET /Form HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 15:44:22] "GET /static/processing/Sphere_of_Particles/Sphere_of_Particles.pde HTTP/1.1" 200 -
+INFO:__main__:A value for debugging
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 15:45:07] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 15:45:07] "GET /static/processing/sketch2.pde HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 15:46:57] "GET /Form HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 15:46:57] "GET /static/processing/Sphere_of_Particles/Sphere_of_Particles.pde HTTP/1.1" 200 -
+INFO:__main__:A value for debugging
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 15:49:29] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 15:49:29] "GET /static/processing/sketch2.pde HTTP/1.1" 200 -
+INFO:__main__:A value for debugging
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 15:49:43] "POST / HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 15:49:43] "GET /pathuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 15:49:46] "GET /pathuserdata HTTP/1.1" 200 -
+INFO:__main__:A value for debugging
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 15:51:48] "POST / HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 15:51:48] "GET /pathuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 15:51:56] "GET /pathuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 15:51:57] "GET /pathuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 15:52:00] "GET /Form HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 15:52:00] "GET /static/processing/Sphere_of_Particles/Sphere_of_Particles.pde HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 15:52:48] "POST /Form HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 15:52:48] "GET /formuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 15:53:17] "GET /Form HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 15:53:17] "GET /static/processing/Sphere_of_Particles/Sphere_of_Particles.pde HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 15:53:21] "GET /Form HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 15:53:21] "GET /static/processing/Sphere_of_Particles/Sphere_of_Particles.pde HTTP/1.1" 200 -
+INFO:__main__:A value for debugging
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 15:53:21] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 15:53:21] "GET /static/processing/sketch2.pde HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 15:53:23] "GET /Form HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 15:53:23] "GET /static/processing/Sphere_of_Particles/Sphere_of_Particles.pde HTTP/1.1" 200 -
+INFO:__main__:A value for debugging
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 15:53:41] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 15:53:41] "GET /static/processing/sketch2.pde HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 15:58:28] "GET /Form HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 15:58:34] "GET /Form HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 15:58:34] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 15:58:34] "GET /static/js/main.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 15:58:34] "GET /static/img/form_photo.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 15:58:34] "GET /static/processing/Sphere_of_Particles/Sphere_of_Particles.pde HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 15:58:34] "GET /static/music/03a.mp3 HTTP/1.1" 304 -
+INFO:__main__:A value for debugging
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 16:05:56] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 16:05:56] "GET /static/processing/sketch2.pde HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 16:06:30] "GET /Form HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 16:06:30] "GET /static/processing/Sphere_of_Particles/Sphere_of_Particles.pde HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 16:12:16] "POST /Form HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 16:12:16] "GET /formuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 16:12:18] "GET /formuserdata HTTP/1.1" 200 -
+INFO:__main__:A value for debugging
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 16:12:19] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 16:12:19] "GET /static/processing/sketch2.pde HTTP/1.1" 200 -
+INFO:__main__:A value for debugging
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 16:12:54] "POST / HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 16:12:54] "GET /pathuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 16:13:00] "GET /pathuserdata HTTP/1.1" 200 -
+INFO:__main__:A value for debugging
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 16:14:55] "POST / HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 16:14:55] "GET /pathuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 16:14:57] "GET /pathuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 16:15:00] "GET /Form HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 16:15:00] "GET /static/processing/Sphere_of_Particles/Sphere_of_Particles.pde HTTP/1.1" 200 -
+INFO:__main__:A value for debugging
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 16:15:35] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 16:15:35] "GET /static/processing/sketch2.pde HTTP/1.1" 200 -
+INFO:__main__:A value for debugging
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 16:15:54] "POST / HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 16:15:54] "GET /pathuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 16:16:09] "GET /pathuserdata HTTP/1.1" 200 -
+INFO:__main__:A value for debugging
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 16:19:06] "POST / HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 16:19:06] "GET /pathuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 16:19:08] "GET /pathuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 16:19:30] "GET /Form HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 16:19:30] "GET /static/processing/Sphere_of_Particles/Sphere_of_Particles.pde HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 16:21:38] "GET /formuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 16:21:41] "GET /formuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 16:35:09] "GET /formuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 16:35:12] "POST /Form HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 16:35:12] "GET /formuserdata HTTP/1.1" 200 -
+INFO:__main__:A value for debugging
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 16:35:44] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 16:35:44] "GET /static/processing/sketch2.pde HTTP/1.1" 200 -
+INFO:__main__:A value for debugging
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 16:36:22] "POST / HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 16:36:22] "GET /pathuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 16:37:38] "GET /pathuserdata HTTP/1.1" 200 -
+INFO:__main__:A value for debugging
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 16:38:09] "POST / HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 16:38:09] "GET /pathuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 16:38:24] "GET /Form HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 16:38:24] "GET /static/processing/Sphere_of_Particles/Sphere_of_Particles.pde HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 16:38:36] "GET /Form HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 16:38:36] "GET /static/processing/Sphere_of_Particles/Sphere_of_Particles.pde HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 16:40:17] "POST /Form HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 16:40:17] "GET /formuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 16:40:33] "GET /formuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 16:40:33] "GET /formuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 16:40:34] "GET /formuserdata HTTP/1.1" 200 -
+INFO:__main__:A value for debugging
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 16:40:40] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 16:40:40] "GET /static/processing/sketch2.pde HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 16:42:20] "GET /Form HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 16:42:20] "GET /static/processing/Sphere_of_Particles/Sphere_of_Particles.pde HTTP/1.1" 200 -
+INFO:__main__:A value for debugging
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 16:49:07] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 16:49:07] "GET /static/processing/sketch2.pde HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 16:57:00] "GET /Form HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 16:57:00] "GET /static/processing/Sphere_of_Particles/Sphere_of_Particles.pde HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 16:57:00] "GET /Form HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 16:57:00] "GET /static/processing/Sphere_of_Particles/Sphere_of_Particles.pde HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 16:59:05] "POST /Form HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 16:59:05] "GET /formuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 16:59:21] "POST /Form HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 16:59:21] "GET /formuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 16:59:21] "GET /formuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 17:01:30] "POST /Form HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 17:01:30] "GET /formuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 17:01:39] "POST /Form HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 17:01:39] "GET /formuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 17:01:40] "POST /Form HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 17:01:40] "GET /formuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 17:01:43] "GET /formuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 17:03:55] "GET /formuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 17:03:55] "GET /formuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 17:04:02] "GET /formuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 17:04:03] "GET /formuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 17:05:05] "POST /Form HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 17:05:05] "GET /formuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 17:05:08] "POST /Form HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 17:05:08] "GET /formuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 17:05:11] "GET /formuserdata HTTP/1.1" 200 -
+INFO:__main__:A value for debugging
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 17:09:19] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 17:09:19] "GET /static/processing/sketch2.pde HTTP/1.1" 200 -
+INFO:__main__:A value for debugging
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 17:11:09] "POST / HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 17:11:10] "GET /pathuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 17:11:24] "GET /pathuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 17:13:02] "GET /Form HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 17:13:02] "GET /static/processing/Sphere_of_Particles/Sphere_of_Particles.pde HTTP/1.1" 200 -
+INFO:__main__:A value for debugging
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 17:17:48] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 17:17:49] "GET /static/processing/sketch2.pde HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 17:20:48] "GET /Form HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 17:20:48] "GET /static/processing/Sphere_of_Particles/Sphere_of_Particles.pde HTTP/1.1" 200 -
+INFO:__main__:A value for debugging
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 17:22:32] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 17:22:32] "GET /static/processing/sketch2.pde HTTP/1.1" 200 -
+INFO:__main__:A value for debugging
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 17:23:27] "POST / HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 17:23:27] "GET /pathuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 17:23:38] "GET /pathuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 17:24:32] "GET /Form HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 17:24:32] "GET /static/processing/Sphere_of_Particles/Sphere_of_Particles.pde HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 17:35:37] "POST /Form HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 17:35:37] "GET /formuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 17:35:41] "GET /formuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 17:36:30] "POST /Form HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 17:36:30] "GET /formuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 17:36:43] "POST /Form HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 17:36:44] "GET /formuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 17:36:44] "GET /formuserdata HTTP/1.1" 200 -
+INFO:__main__:A value for debugging
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 17:49:28] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 17:49:28] "GET /static/processing/sketch2.pde HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 17:49:35] "GET /pathuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 17:49:43] "GET /pathuserdata HTTP/1.1" 200 -
+INFO:__main__:A value for debugging
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 17:50:35] "POST / HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 17:50:35] "GET /pathuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 17:50:43] "GET /pathuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 17:50:43] "GET /pathuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 17:50:44] "GET /pathuserdata HTTP/1.1" 200 -
+INFO:__main__:A value for debugging
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 17:51:17] "POST / HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 17:51:17] "GET /pathuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 17:53:14] "GET /pathuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 17:54:52] "GET /pathuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 17:54:56] "GET /pathuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 17:54:57] "GET /pathuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 17:55:01] "GET /pathuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 17:55:03] "GET /pathuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 17:55:06] "GET /pathuserdata HTTP/1.1" 200 -
+INFO:__main__:A value for debugging
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 17:55:38] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 17:55:38] "GET /static/processing/sketch2.pde HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 17:55:41] "GET /Form HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 17:55:41] "GET /static/processing/Sphere_of_Particles/Sphere_of_Particles.pde HTTP/1.1" 200 -
+INFO:__main__:A value for debugging
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 17:56:07] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2013 17:56:07] "GET /static/processing/sketch2.pde HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/
+INFO:werkzeug: * Restarting with reloader
+INFO:__main__:A value for debugging
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:09:03] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:09:03] "GET /static/img/pathimage.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:09:04] "GET /static/processing/sketch2.pde HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:09:04] "GET /static/music/bg.mp3 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:09:04] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:__main__:A value for debugging
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:09:05] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:09:05] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:09:05] "GET /static/js/main.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:09:05] "GET /static/img/pathimage.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:09:06] "GET /static/processing/sketch2.pde HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:09:06] "GET /static/music/bg.mp3 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:09:09] "GET /pathuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:09:11] "GET /pathuserdata HTTP/1.1" 200 -
+INFO:__main__:A value for debugging
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:09:11] "POST / HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:09:11] "GET /pathuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:09:12] "GET /pathuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:09:13] "GET /pathuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:09:13] "GET /pathuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:09:14] "GET /pathuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:09:14] "GET /pathuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:09:15] "GET /pathuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:09:16] "GET /pathuserdata HTTP/1.1" 200 -
+INFO:__main__:A value for debugging
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:09:16] "POST / HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:09:16] "GET /pathuserdata HTTP/1.1" 200 -
+INFO:__main__:A value for debugging
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:09:16] "POST / HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:09:16] "GET /pathuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:09:34] "GET /Form HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:09:35] "GET /static/processing/Sphere_of_Particles/Sphere_of_Particles.pde HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:09:43] "GET /Form HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:09:43] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:09:43] "GET /static/js/main.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:09:43] "GET /static/img/form_photo.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:09:43] "GET /static/processing/Sphere_of_Particles/Sphere_of_Particles.pde HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:09:43] "GET /static/music/03a.mp3 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:09:44] "POST /Form HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:09:44] "GET /formuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:09:45] "POST /Form HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:09:46] "GET /formuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:09:46] "POST /Form HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:09:47] "GET /formuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:09:47] "GET /formuserdata HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'app.py', reloading
+INFO:werkzeug: * Restarting with reloader
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:10:01] "POST /Form HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:10:01] "GET /formuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:10:03] "GET /formuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:10:03] "POST /Form HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:10:04] "GET /formuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:10:04] "POST /Form HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:10:04] "GET /formuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:11:12] "GET /Form HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:11:12] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:11:12] "GET /static/js/main.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:11:12] "GET /static/img/form_photo.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:11:13] "GET /static/processing/Sphere_of_Particles/Sphere_of_Particles.pde HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:11:13] "GET /static/music/03a.mp3 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:11:17] "GET /Form HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:11:17] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:11:17] "GET /static/js/main.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:11:17] "GET /static/img/form_photo.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:11:17] "GET /static/processing/Sphere_of_Particles/Sphere_of_Particles.pde HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:11:17] "GET /static/music/03a.mp3 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:11:25] "GET /Form HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:11:25] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:11:25] "GET /static/js/main.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:11:25] "GET /static/img/form_photo.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:11:26] "GET /static/processing/Sphere_of_Particles/Sphere_of_Particles.pde HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:11:26] "GET /static/music/03a.mp3 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:11:31] "GET /Form HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:11:31] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:11:31] "GET /static/js/main.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:11:31] "GET /static/img/form_photo.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:11:31] "GET /static/processing/Sphere_of_Particles/Sphere_of_Particles.pde HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:11:31] "GET /static/music/03a.mp3 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:11:35] "GET /Form HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:11:36] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:11:36] "GET /static/js/main.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:11:36] "GET /static/img/form_photo.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:11:36] "GET /static/processing/Sphere_of_Particles/Sphere_of_Particles.pde HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:11:36] "GET /static/music/03a.mp3 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:11:43] "GET /formuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:11:46] "GET /formuserdata HTTP/1.1" 200 -
+INFO:__main__:A value for debugging
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:11:49] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:11:49] "GET /static/processing/sketch2.pde HTTP/1.1" 200 -
+INFO:__main__:A value for debugging
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:11:59] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:11:59] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:11:59] "GET /static/js/main.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:11:59] "GET /static/img/pathimage.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:11:59] "GET /static/processing/sketch2.pde HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:11:59] "GET /static/music/bg.mp3 HTTP/1.1" 304 -
+INFO:__main__:A value for debugging
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:12:24] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:12:24] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:12:24] "GET /static/js/main.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:12:24] "GET /static/img/pathimage.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:12:25] "GET /static/processing/sketch2.pde HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:12:25] "GET /static/music/bg.mp3 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:12:47] "GET /Form HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:12:48] "GET /static/processing/Sphere_of_Particles/Sphere_of_Particles.pde HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:14:53] "GET /Form HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:14:53] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:14:53] "GET /static/js/main.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:14:53] "GET /static/img/form_photo.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:14:54] "GET /static/processing/Sphere_of_Particles/Sphere_of_Particles.pde HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:14:54] "GET /static/music/03a.mp3 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:15:53] "GET /Form HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:15:53] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:15:53] "GET /static/js/main.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:15:53] "GET /static/img/form_photo.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:15:53] "GET /static/processing/Sphere_of_Particles/Sphere_of_Particles.pde HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:15:53] "GET /static/music/03a.mp3 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:16:08] "GET /Form HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:16:08] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:16:08] "GET /static/js/main.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:16:08] "GET /static/img/form_photo.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:16:08] "GET /static/processing/Sphere_of_Particles/Sphere_of_Particles.pde HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:16:08] "GET /static/music/03a.mp3 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:16:42] "GET /Form HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:16:43] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:16:43] "GET /static/js/main.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:16:43] "GET /static/img/form_photo.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:16:43] "GET /static/processing/Sphere_of_Particles/Sphere_of_Particles.pde HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:16:43] "GET /static/music/03a.mp3 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:16:50] "GET /formuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:16:51] "GET /formuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:16:52] "POST /Form HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:16:53] "GET /formuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:16:55] "POST /Form HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:16:55] "GET /formuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:16:56] "POST /Form HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:16:56] "GET /formuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:16:59] "GET /formuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:16:59] "GET /formuserdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:17:00] "GET /formuserdata HTTP/1.1" 200 -
+INFO:__main__:A value for debugging
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:17:02] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:17:02] "GET /static/processing/sketch2.pde HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:17:19] "GET /Form HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:17:19] "GET /static/processing/Sphere_of_Particles/Sphere_of_Particles.pde HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:17:23] "GET /Form HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:17:23] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:17:23] "GET /static/js/main.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:17:23] "GET /static/img/form_photo.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:17:24] "GET /static/processing/Sphere_of_Particles/Sphere_of_Particles.pde HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:17:24] "GET /static/music/03a.mp3 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:17:54] "GET /Form HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:17:54] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:17:54] "GET /static/js/main.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:17:54] "GET /static/img/form_photo.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:17:54] "GET /static/processing/Sphere_of_Particles/Sphere_of_Particles.pde HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:17:54] "GET /static/music/03a.mp3 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:18:13] "GET /Form HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:18:13] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:18:13] "GET /static/js/main.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:18:13] "GET /static/img/form_photo.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:18:13] "GET /static/processing/Sphere_of_Particles/Sphere_of_Particles.pde HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:18:13] "GET /static/music/03a.mp3 HTTP/1.1" 304 -
+INFO:__main__:A value for debugging
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:18:44] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:18:44] "GET /static/processing/sketch2.pde HTTP/1.1" 200 -
+INFO:__main__:A value for debugging
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:19:40] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:19:40] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:19:40] "GET /static/js/main.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:19:40] "GET /static/img/pathimage.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:19:40] "GET /static/processing/sketch2.pde HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:19:40] "GET /static/music/bg.mp3 HTTP/1.1" 304 -
+INFO:__main__:A value for debugging
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:19:49] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:19:49] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:19:49] "GET /static/js/main.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:19:49] "GET /static/img/pathimage.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:19:49] "GET /static/processing/sketch2.pde HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:19:49] "GET /static/music/bg.mp3 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:20:03] "GET /Form HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:20:03] "GET /static/processing/Sphere_of_Particles/Sphere_of_Particles.pde HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:21:35] "GET /Form HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:21:35] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:21:35] "GET /static/js/main.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:21:35] "GET /static/img/form_photo.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:21:35] "GET /static/processing/Sphere_of_Particles/Sphere_of_Particles.pde HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:21:35] "GET /static/music/03a.mp3 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:21:46] "GET /Form HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:21:46] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:21:46] "GET /static/js/main.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:21:46] "GET /static/img/form_photo.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:21:46] "GET /static/processing/Sphere_of_Particles/Sphere_of_Particles.pde HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:21:46] "GET /static/music/03a.mp3 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:22:22] "GET /Form HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:22:22] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:22:22] "GET /static/js/main.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:22:22] "GET /static/img/form_photo.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:22:23] "GET /static/processing/Sphere_of_Particles/Sphere_of_Particles.pde HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:22:23] "GET /static/music/03a.mp3 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:23:03] "GET /Form HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:23:03] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:23:03] "GET /static/js/main.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:23:03] "GET /static/img/form_photo.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:23:04] "GET /static/processing/Sphere_of_Particles/Sphere_of_Particles.pde HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:23:04] "GET /static/music/03a.mp3 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:23:26] "GET /Form HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:23:26] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:23:26] "GET /static/js/main.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:23:26] "GET /static/img/form_photo.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:23:26] "GET /static/processing/Sphere_of_Particles/Sphere_of_Particles.pde HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:23:26] "GET /static/music/03a.mp3 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:23:29] "GET /Form HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:23:29] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:23:29] "GET /static/js/main.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:23:29] "GET /static/img/form_photo.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:23:30] "GET /static/processing/Sphere_of_Particles/Sphere_of_Particles.pde HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:23:30] "GET /static/music/03a.mp3 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:23:53] "GET /Form HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:23:54] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:23:54] "GET /static/js/main.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:23:54] "GET /static/img/form_photo.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:23:54] "GET /static/processing/Sphere_of_Particles/Sphere_of_Particles.pde HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:23:54] "GET /static/music/03a.mp3 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:24:05] "GET /Form HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:24:05] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:24:05] "GET /static/js/main.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:24:05] "GET /static/img/form_photo.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:24:05] "GET /static/processing/Sphere_of_Particles/Sphere_of_Particles.pde HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:24:05] "GET /static/music/03a.mp3 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:24:12] "GET /Form HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:24:12] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:24:12] "GET /static/js/main.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:24:12] "GET /static/img/form_photo.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:24:12] "GET /static/processing/Sphere_of_Particles/Sphere_of_Particles.pde HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:24:12] "GET /static/music/03a.mp3 HTTP/1.1" 304 -
+INFO:__main__:A value for debugging
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:24:30] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:24:30] "GET /static/processing/sketch2.pde HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:24:34] "GET /Form HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:24:34] "GET /static/processing/Sphere_of_Particles/Sphere_of_Particles.pde HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:25:37] "GET /Form HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:25:37] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:25:37] "GET /static/js/main.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:25:37] "GET /static/img/form_photo.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:25:37] "GET /static/processing/Sphere_of_Particles/Sphere_of_Particles.pde HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:25:37] "GET /static/music/03a.mp3 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:26:05] "GET /Form HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:26:05] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:26:05] "GET /static/js/main.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:26:05] "GET /static/img/form_photo.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:26:05] "GET /static/processing/Sphere_of_Particles/Sphere_of_Particles.pde HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:26:05] "GET /static/music/03a.mp3 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:26:34] "GET /Form HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:26:34] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:26:34] "GET /static/js/main.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:26:34] "GET /static/img/form_photo.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:26:35] "GET /static/processing/Sphere_of_Particles/Sphere_of_Particles.pde HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:26:35] "GET /static/music/03a.mp3 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:27:47] "GET /Form HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:27:47] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:27:47] "GET /static/js/main.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:27:47] "GET /static/img/form_photo.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:27:48] "GET /static/processing/Sphere_of_Particles/Sphere_of_Particles.pde HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:27:48] "GET /static/music/03a.mp3 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:27:57] "GET /Form HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:27:57] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:27:57] "GET /static/js/main.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:27:57] "GET /static/img/form_photo.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:27:57] "GET /static/processing/Sphere_of_Particles/Sphere_of_Particles.pde HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:27:57] "GET /static/music/03a.mp3 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:28:15] "GET /Form HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:28:15] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:28:15] "GET /static/js/main.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:28:15] "GET /static/img/form_photo.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:28:16] "GET /static/processing/Sphere_of_Particles/Sphere_of_Particles.pde HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:28:16] "GET /static/music/03a.mp3 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:29:03] "GET /Form HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:29:03] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:29:03] "GET /static/js/main.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:29:03] "GET /static/img/form_photo.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:29:03] "GET /static/processing/Sphere_of_Particles/Sphere_of_Particles.pde HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:29:03] "GET /static/music/03a.mp3 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:29:46] "GET /Form HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:29:46] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:29:46] "GET /static/js/main.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:29:46] "GET /static/img/form_photo.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:29:46] "GET /static/processing/Sphere_of_Particles/Sphere_of_Particles.pde HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:29:46] "GET /static/music/03a.mp3 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:32:08] "GET /Form HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:32:08] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:32:08] "GET /static/js/main.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:32:08] "GET /static/img/form_photo.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:32:08] "GET /static/processing/Sphere_of_Particles/Sphere_of_Particles.pde HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2013 02:32:08] "GET /static/music/03a.mp3 HTTP/1.1" 304 -

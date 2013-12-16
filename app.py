@@ -141,13 +141,6 @@ def sketch2():
 		return render_template("index_form.html",**templateData)
 
 
-# @app.route("/path3d")
-# def path3d():
-# 	return render_template("path3d.html")
-
-# @app.route("/form3d")
-# def form3d():
-# 	return render_template("form3d.html")
 
 @app.route("/pathuserdata")
 def pathuserdata():
@@ -190,16 +183,6 @@ def formuserdata():
 	
 	return render_template('form_userdata.html',**templateData)
 
-
-
-
-@app.route("/test")
-def test():
-
-
-
-	
-	return render_template('test.html')
 
 
 

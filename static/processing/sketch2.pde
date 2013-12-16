@@ -82,7 +82,7 @@ void draw() {
   if (sliderMoved==true) {
     for (int i=0; i<curves.size(); i++) {
       curves.get(i).displayLineFade(i);
-      if (curves.size()>24) {
+      if (curves.size()>30) {
         curves.remove(0);
       }
     }
@@ -138,7 +138,7 @@ class Ball {
   void display(Curve tmp) {
     finalC=tmp;
     pushMatrix();
-    fill(0);
+    fill(255,10,10);
 
     translate(finalC.x[i], finalC.y[i], finalC.z[i]);
     noStroke();

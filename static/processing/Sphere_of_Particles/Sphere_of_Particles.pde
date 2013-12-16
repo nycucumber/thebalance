@@ -39,7 +39,7 @@ void setup() {
   connection_weight = 0.7;
   sphere_volume = 0.5;
   sphere_radius= 220;
-  particle_amount = 90;
+  particle_amount = 75;
   sphere_amount = 5;
   particles = new ArrayList<Particle>();
   spheres = new ArrayList<Sphere>();
@@ -58,7 +58,7 @@ void setup() {
 
 void draw() {
 
-  background(0);
+  background(10);
   slider.display();
 
   translate(0, 0, -1340);
@@ -254,6 +254,7 @@ void draw() {
 float get_a(){
   return sphere_volume;
 }
+
 void mouseDragged() {
 
   slider.moveScale();
@@ -407,7 +408,7 @@ class Particle {
   }
 
   void move_towards_target() {
-    minSpeed =  (1 - sphere_volume) ;
+    minSpeed =  (1 - sphere_volume) * 4;
     PVector desired = PVector.sub(target, location);//get "should" direction
     desired.normalize();//get the dir. with a unit length
     desired.mult(speed*sphere_volume+minSpeed);
@@ -491,7 +492,7 @@ class Sphere {
 
 
   Sphere () {
-    The_radius = 800;
+    The_radius = 1000;
     moving_speed = random(0.001, 0.007) * 0.1;
     u = random(0, 40);
     v = random(0, 40);
@@ -504,8 +505,8 @@ class Sphere {
 
 
   void move() {
-    u = u + (0.001 + moving_speed ) + sphere_volume*0.004;  
-    v = v + (0.001 + moving_speed ) + sphere_volume*0.004; 
+    u = u + (0.001 + moving_speed ) + sphere_volume*0.002;  
+    v = v + (0.001 + moving_speed ) + sphere_volume*0.002; 
     location.x = The_radius*1.3 * sin(u) * cos(v)+ center.x;
     location.y = The_radius*0.8 * cos(u) * cos(v)+center.y;
     location.z = The_radius*1.5 * sin(v) + center.z;
